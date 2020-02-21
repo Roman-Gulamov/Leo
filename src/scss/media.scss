@@ -1,0 +1,38 @@
+@media only screen and (max-width: 991.98px) {
+.header {
+&__top__wrapper{
+margin-bottom: 20px;
+}
+
+&__logo {
+    display: block;
+    margin-left: 140px;
+}
+&__menu {
+    font-size: 25px;
+}
+&__arrow-left {
+    width: 32px !important;
+    height: 32px !important;
+    margin-left: -90px !important;
+}
+&__coffee {
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: -50px !important;
+}
+&__text {
+    padding-left: 19px;
+}
+&__title {
+    font-size: 40px !important; 
+}
+&__subtitle {
+    font-size: 20px !important; 
+}
+&__arrow-right {
+    width: 32px !important;
+    height: 32px !important;
+}
+}//header
+}

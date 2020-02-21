@@ -1,0 +1,115 @@
+//! IMPORT FILES //
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss";
+@import "../../node_modules/bootstrap/scss/utilities.scss";
+@import "../../node_modules/bootstrap/scss/grid.scss";
+@import "../scss/fonts.scss";
+//! -IMPORT FILES- //
+
+//! CUSTOM SCSS //
+$SegoeL: "Segoe WP Light";
+$SegoeSB: "Segoe WP Semibold";
+$SegoeSL: "Segoe WP Semilight";
+$Fz: 25px;
+$White: rgb(255,255,255);
+$Green: #175b3b;
+//! -CUSTOM SCSS- //
+
+//! PREPARATION //
+*, *:before, *:after {
+    font-family: $SegoeL;
+    font-size: $Fz;
+    line-height: 24px;
+}
+//! -PREPARATION- //
+
+//! HEADER //
+.header {
+    background-image: url(/src/scss/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+&__top__wrapper {
+    height: 200px;
+}
+
+&__logo {
+    width: auto;
+    height: 72px;
+}
+
+&__menu {
+    display: inline-flex;
+    padding-top: 60px;
+    padding-right: 40px;
+    color: $White;
+    
+&:nth-child(odd) {
+    padding-right: 55px;
+}
+&:last-child {
+    padding-right: 0;
+}
+&:hover {
+    transition: all 0.75s ease;
+    color: rgba(255, 255, 255,0.4);
+}
+}//header__menu
+
+&__arrow-left {
+    width: 40px;
+    height: 40px;
+    margin-left: -65px;
+}
+
+&__coffee {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    bottom: -50px;
+    right: 10px;
+}
+
+&__text {
+    font-family: $SegoeSL;
+    color: $White;
+}
+
+&__title {
+    font-family: $SegoeSB;
+    font-size: 65px;
+    letter-spacing: 2px;
+    
+}
+
+&__subtitle {
+    letter-spacing: 1px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+&__btn {
+    width: 135px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background-color: $Green;
+    border: 1px solid $Green;
+    outline: 4px solid rgba(24, 29, 26, 0.3);;
+    color: $White;
+    font-family: $SegoeSL;
+
+&:active {
+transform: translateY(1px);;
+}
+}//header__btn
+
+&__arrow-right {
+    width: 40px;
+    height: 40px;
+    margin-left: 65px;
+}
+}//header
+//! -HEADER- //
