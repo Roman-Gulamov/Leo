@@ -10,8 +10,10 @@ $SegoeL: "Segoe WP Light";
 $SegoeSB: "Segoe WP Semibold";
 $SegoeSL: "Segoe WP Semilight";
 $Fz: 25px;
-$White: rgb(255,255,255);
+$Bg: rgba(80, 91, 99, 1);
+$Gray: rgba(128, 128, 128, 0.4);
 $Green: #175b3b;
+$White: rgb(255,255,255);
 //! -CUSTOM SCSS- //
 
 //! PREPARATION //
@@ -19,6 +21,52 @@ $Green: #175b3b;
     font-family: $SegoeL;
     font-size: $Fz;
     line-height: 24px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 //! -PREPARATION- //
 
@@ -40,12 +88,15 @@ $Green: #175b3b;
     height: 72px;
 }
 
+&__nav {
+    padding-left: 50px;
+}
+
 &__menu {
     display: inline-flex;
+    position: relative;
     padding-top: 60px;
-    padding-right: 40px;
     color: $White;
-    
 &:nth-child(odd) {
     padding-right: 55px;
 }
@@ -55,7 +106,48 @@ $Green: #175b3b;
 &:hover {
     transition: all 0.75s ease;
     color: rgba(255, 255, 255,0.4);
+    text-decoration: none;
 }
+
+&__list {
+    display: none;
+    position: absolute;
+    background-color: rgba(80, 91, 99, 0.1);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;  
+&:nth-child(2) {
+    top: 100%;
+    right: 507px;
+    }
+&:nth-child(4) {
+    top: 100%;
+    right: 352px;
+    }
+&:nth-child(6) {
+    top: 100%;
+    right: 198px;
+    }
+&:nth-child(8) {
+        top: 100%;
+        right: 50px;
+}
+&.active {
+    display: block;
+}
+
+& a {
+    display: block;
+    font-size: 19px;
+    border: 1px solid $Bg;
+    color: $White;
+    padding: 10px 10px;
+&:hover {
+    background-color: $Gray;
+    transition: all 0.25s ease-in-out;
+    }
+}
+}//header__menu__list
 }//header__menu
 
 &__arrow-left {
@@ -81,6 +173,7 @@ $Green: #175b3b;
     font-family: $SegoeSB;
     font-size: 65px;
     letter-spacing: 2px;
+    line-height: 0.75;
     
 }
 
@@ -101,9 +194,8 @@ $Green: #175b3b;
     outline: 4px solid rgba(24, 29, 26, 0.3);;
     color: $White;
     font-family: $SegoeSL;
-
 &:active {
-transform: translateY(1px);;
+    transform: translateY(1px);;
 }
 }//header__btn
 
@@ -111,6 +203,6 @@ transform: translateY(1px);;
     width: 40px;
     height: 40px;
     margin-left: 65px;
-}
+    }
 }//header
 //! -HEADER- //
