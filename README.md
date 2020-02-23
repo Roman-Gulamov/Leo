@@ -25,6 +25,6 @@ package.json, а также все их зависимости.
 
 * jQuery
 * Bootstrap 4
-* Scss
+* SASS
 * And more...
  

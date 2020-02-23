@@ -4,9 +4,10 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   entry: './src/app.js',
+  mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js' 
   },
   module: {
     rules: [
@@ -22,9 +23,6 @@ module.exports = {
         use: [
               {
                 loader: 'file-loader?name=./src/fonts/[name].[ext]'
-              },
-              {
-                loader: 'file-loader?name=./src/fonts/ofont.ru_Segoe WP Light/[name].[ext]'
               }
         ]
       }
