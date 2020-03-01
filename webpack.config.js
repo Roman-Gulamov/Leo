@@ -25,7 +25,16 @@ module.exports = {
                 loader: 'file-loader?name=./src/fonts/[name].[ext]'
               }
         ]
-      }
+      },
+      // {
+      //   test: /\.(html)$/,
+      //   use: {
+      //     loader: 'html-loader',
+      //     options: {
+      //       attrs: ['false']
+      //     }
+      //   }
+      // }
     ]
   },
 
