@@ -1,6 +1,4 @@
 node_modules
 npm.debug.log
 Desktop.ini
-dist
-!dist/style.css
 er.name
