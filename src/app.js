@@ -1,4 +1,3 @@
 import './js/main.js';
-import './scss/base.scss';
-import './scss/media.scss';
+import './scss/main.scss';
 import 'bootstrap/dist/js/bootstrap.js';

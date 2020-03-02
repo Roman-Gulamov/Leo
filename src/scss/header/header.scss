@@ -1,0 +1,67 @@
+//! HEADER //
+.header {
+    background: #ccc url(/src/img/bg.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+&__top__wrapper {
+    height: 200px;
+}
+
+&__arrow-left {
+    width: 50px;
+    height: 50px;
+    margin-left: -65px;
+}
+
+&__coffee {
+    position: relative;
+    width: 329px;
+    height: 329px;
+    bottom: -50px;
+    right: 10px;
+}
+
+&__text {
+    font-family: $SegoeSL;
+    color: $White;
+}
+
+&__title {
+    font-family: $SegoeSB;
+    font-size: 65px;
+    letter-spacing: 2px;
+    line-height: 0.75;
+    
+}
+
+&__subtitle {
+    letter-spacing: 1px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+&__btn {
+    width: 135px;
+    height: 40px;
+    margin: 8px 0 0 10px;
+    background-color: $Green;
+    border: 1px solid $Green;
+    outline: 4px solid rgba(24, 29, 26, 0.3);;
+    color: $White;
+    font-family: $SegoeSL;
+
+&:active {
+    transform: translateY(1px);;
+}
+}//header__btn
+
+&__arrow-right {
+    width: 50px;
+    height: 50px;
+    margin-left: 65px;
+    }
+}//header
+//! -HEADER- //

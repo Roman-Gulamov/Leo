@@ -26,5 +26,5 @@ package.json, а также все их зависимости.
 * jQuery
 * Bootstrap 4
 * SASS
-* And more...
+* Webpack 4
  

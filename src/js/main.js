@@ -1,8 +1,8 @@
 jQuery(document).ready(function($) {
 
-  $(".header__menu").mouseup(function(event) {
+  $(".nav__menu").mouseup(function(event) {
     let target = $(event.target);
-    if (target.is("p")) {
+    if (target.is("a")) {
         $(this).next().slideToggle();
         $(this).prev().slideUp();
         $(this).css('color', 'rgba(255, 255, 255,0.4)');
@@ -11,8 +11,8 @@ jQuery(document).ready(function($) {
 
   $(document).mouseup(function(event) {
     let target = $(event.target);
-    if (!target.is("p") && !target.is("a")) {
-        $(".header__menu__list").slideUp();
+    if (!target.is("a")) {
+        $(".nav__menu__list").slideUp();
     }
   });
 
