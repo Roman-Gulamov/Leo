@@ -9,16 +9,24 @@
     height: 200px;
 }
 
-&__arrow-left {
-    width: 50px;
-    height: 50px;
-    margin-left: -65px;
+&__logo {
+    width: 222px;
+    font-family: $Mrs;
+    font-style: italic;
+    opacity: 0.68;
+    font-size: 5.1739rem;
+    color: $White;
+
+&:hover {
+    color: $White;
+    text-decoration: none;
+    }   
 }
 
 &__coffee {
     position: relative;
-    width: 329px;
-    height: 329px;
+    max-width: 329px;
+    max-height: 329px;
     bottom: -50px;
     right: 10px;
 }
@@ -30,7 +38,7 @@
 
 &__title {
     font-family: $SegoeSB;
-    font-size: 65px;
+    font-size: 2.8261rem;
     letter-spacing: 2px;
     line-height: 0.75;
     
@@ -38,7 +46,7 @@
 
 &__subtitle {
     letter-spacing: 1px;
-    font-size: 45px;
+    font-size: 1.9565rem;
     font-weight: 400;
     line-height: 1.7;
 }
@@ -46,22 +54,18 @@
 &__btn {
     width: 135px;
     height: 40px;
+    font-family: $SegoeSL;
     margin: 8px 0 0 10px;
     background-color: $Green;
-    border: 1px solid $Green;
-    outline: 4px solid rgba(24, 29, 26, 0.3);;
+    border: 0;
+    padding: 0;
     color: $White;
-    font-family: $SegoeSL;
+    opacity: 0.8;
+    outline: 4px solid rgba(0, 0, 0, 0.2);
 
 &:active {
     transform: translateY(1px);;
-}
-}//header__btn
-
-&__arrow-right {
-    width: 50px;
-    height: 50px;
-    margin-left: 65px;
     }
+}//header__btn
 }//header
 //! -HEADER- //

@@ -1,19 +1,17 @@
 .nav {
     padding-left: 50px;
+    height: 75px;
+    margin: auto;
 
 &__menu {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    padding-top: 60px;
     color: $White;
     transition: all 0.75s ease;
-    
-&:nth-child(odd) {
     padding-right: 55px;
-    }
     
-&:last-child {
+&:last-of-type {
     padding-right: 0;
     }
     
@@ -52,7 +50,7 @@
     
 & a {
     display: block;
-    font-size: 19px;
+    font-size: 0.76rem;
     border: 1px solid $Bg;
     color: $White;
     padding: 10px 10px;
