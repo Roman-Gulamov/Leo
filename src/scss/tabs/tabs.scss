@@ -1,0 +1,40 @@
+.tabs {
+    display: flex;
+    justify-content: space-between;
+
+&__wrapper {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    
+&:active .tabs__text{
+    font-weight: 900;
+}
+}
+
+&__img {
+    max-width: 120px;
+    max-height: 150px;
+}
+
+&__text {
+    font-family: "Segoe WP Semilight";
+    padding-top: 10px;
+    font-size: 23px;
+    font-weight: 400;
+    color: $Tabs;
+    line-height: 1.25;
+
+&:active {
+	font-weight: 900;
+}
+}
+
+&__web {
+    font-size: 19px;
+}
+}
+
+.active {
+    font-weight: bold;
+}
