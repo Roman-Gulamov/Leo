@@ -1,0 +1,59 @@
+.header__middle__wrapper {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.header__content__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content {
+    display: flex;
+    width: 780px;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__coffee {
+    width: auto;
+    height: 325px;
+}
+
+.header__text {
+    font-family: $SegoeSL;
+    color: $White;
+    margin-bottom: 80px;
+    margin-right: 55px;
+}
+
+.header__title {
+    font-family: $SegoeSB;
+    font-size: 60px;
+    letter-spacing: 2px;
+    line-height: 0.75;
+    
+}
+
+.header__subtitle {
+    letter-spacing: 1px;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.header__btn {
+    width: 135px;
+    height: 40px;
+    font-family: $SegoeSL;
+    margin: 8px 0 0 10px;
+    background-color: $Green;
+    border: 0;
+    padding: 0;
+    color: $White;
+    opacity: 0.8;
+    outline: 4px solid rgba(0, 0, 0, 0.2);
+}
+

@@ -1,13 +1,15 @@
 .arrow {
-    display: block;
-    width: 100%;
-    height: 100%;
+    display: flex;
+    align-self: center;
+    margin-bottom: 100px;
+    max-width: 50px;
+    max-height: 50px;
 
 &-left {
-    margin-left: -112px;
+    
 }
 
 &-right {
-    margin-left: 112px;
+    
 }
 }

@@ -1,17 +1,16 @@
 .nav {
-    padding-left: 50px;
-    height: 75px;
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    min-width: 520px;
+    height: auto;
 
 &__menu {
-    display: inline-block;
-    vertical-align: top;
     position: relative;
     color: $White;
+    cursor: pointer;
     transition: all 0.75s ease;
-    padding-right: 55px;
     
-&:last-of-type {
+&::last-child {
     padding-right: 0;
     }
     
@@ -22,31 +21,10 @@
     
 &__list {
     display: none;
-    position: absolute;
+    list-style-type: none;
     background-color: rgba(80, 91, 99, 0.1);
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    
-&:nth-child(2) {
-    top: 100%;
-    right: 507px;
-        }
-    
-&:nth-child(4) {
-    top: 100%;
-    right: 352px;
-        }
-    
-&:nth-child(6) {
-    top: 100%;
-    right: 198px;
-        }
-    
-&:nth-child(8) {
-    top: 100%;
-    right: 50px;
-    }
     
 & a {
     display: block;
