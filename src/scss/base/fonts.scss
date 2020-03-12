@@ -1,17 +1,18 @@
 //! FONTS //
 @font-face {
     font-family: "Segoe WP Light";
-    src: url("/src/fonts/ofont.ru_Segoe_WP_Light.ttf");
+    font-weight: 300;
+    src: url("/src/fonts/ofont.ru_Segoe_WP_Light.ttf") format("ttf");
 }
 @font-face {
     font-family: "Segoe WP Semibold";
     font-weight: 700;
-    src: url("/src/fonts/ofont.ru_Segoe_WP_Semibold.ttf");
+    src: url("/src/fonts/ofont.ru_Segoe_WP_Semibold.ttf") format("ttf");
 }
 @font-face {
     font-family: "Segoe WP Semilight";
     font-weight: 300;
-    src: url("/src/fonts/ofont.ru_Segoe_WP_SemiLight.ttf");
+    src: url("/src/fonts/ofont.ru_Segoe_WP_SemiLight.ttf") format("ttf");
 }
 @font-face {
     font-family: "Mrs Eaves Italic";

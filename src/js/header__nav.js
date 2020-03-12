@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
       let target = $(event.target);
       if (target.is("ul")) {
           $(this).children().slideToggle();
-          $(this).prev().slideUp();
+          $(this).siblings().children().slideUp();
           $(this).css('color', 'rgba(255, 255, 255,0.4)');
       }
     });

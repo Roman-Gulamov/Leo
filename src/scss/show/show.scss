@@ -1,0 +1,85 @@
+.show {
+    position: relative;
+
+&__active {
+    visibility: visible !important;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 0px $Shadow inset;
+    animation: spoiler 1.5s;
+    z-index: 1;
+}
+
+&__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 732px;
+    max-height: 349px;
+
+}
+    
+&__text {
+    line-height: 2;
+    color: lighten($Black, 40%);
+    font-weight: 300;
+    font-size: 36px;
+    max-width: 874px;
+    margin: auto;
+}
+    
+&__smalltext {
+    font-size: 14px;
+    color: $Tabs;
+    word-wrap: break-word;
+    margin: 0 66px 50px 66px;
+}
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    margin: -3px;
+
+&__phone::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    left: 3px;
+    width: 24.5%;
+    background: $White;
+    }
+
+&__basket::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    left: 250px;
+    width: 24.5%;
+    background: $White;
+}
+    
+&__web::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    left: 497px;
+    width: 24.5%;
+    background: $White;
+}
+
+&__magnifier::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    left: 745px;
+    width: 24.5%;
+    background: $White;
+}
+}
