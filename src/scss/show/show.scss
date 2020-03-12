@@ -1,11 +1,15 @@
 .show {
     position: relative;
+    min-height: 825px;
+
+    @media screen and (max-width: 880px) {
+        min-height: 880px;
+    }
 
 &__active {
     visibility: visible !important;
-    border: 1px solid white;
     border-radius: 2px;
-    box-shadow: 0px 0px 4px 0px $Shadow inset;
+    box-shadow: 0px 0px 5px 0px $Shadow inset;
     animation: spoiler 1.5s;
     z-index: 1;
 }
@@ -31,7 +35,7 @@
     
 &__smalltext {
     font-size: 14px;
-    color: $Tabs;
+    color: $Gray;
     word-wrap: break-word;
     margin: 0 66px 50px 66px;
 }
@@ -47,8 +51,8 @@
     content: '';
     display: block;
     position: absolute;
-    height: 3px;
-    left: 3px;
+    height: 6px;
+    left: 0.296%;
     width: 24.5%;
     background: $White;
     }
@@ -57,8 +61,8 @@
     content: '';
     display: block;
     position: absolute;
-    height: 3px;
-    left: 250px;
+    height: 6px;
+    left: 24.7%;
     width: 24.5%;
     background: $White;
 }
@@ -67,8 +71,8 @@
     content: '';
     display: block;
     position: absolute;
-    height: 3px;
-    left: 497px;
+    height: 6px;
+    left: 49.3%;
     width: 24.5%;
     background: $White;
 }
@@ -77,8 +81,8 @@
     content: '';
     display: block;
     position: absolute;
-    height: 3px;
-    left: 745px;
+    height: 6px;
+    left: 73.78%;
     width: 24.5%;
     background: $White;
 }

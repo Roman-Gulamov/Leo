@@ -23,16 +23,18 @@
     padding-top: 10px;
     font-size: 23px;
     font-weight: 400;
-    color: $Tabs;
+    color: $Gray;
     line-height: 1.25;
 }
 
 &__active {
     visibility: visible !important;
+    cursor: default;
+    pointer-events: none;
     border: 1px solid white;
     border-bottom: none;
     border-radius: 2px;
-    box-shadow: 0px -2px 4px 0px $Shadow;
+    box-shadow: 0px -3px 5px 0px $Shadow;
 }
 }
 

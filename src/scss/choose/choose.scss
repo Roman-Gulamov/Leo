@@ -1,0 +1,28 @@
+.choose {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+&__img {
+    width: auto;
+    height: 270px;
+}
+
+&__title {
+    font-size: 32px;
+    font-weight: 300;
+    color: lighten($Black, 40%);
+}
+
+&__list {
+    padding-top: 28px;
+}
+
+& li {
+    font-size: 16px;
+    line-height: 2.3;
+    padding-left: 33px;
+    background: url(/src/img/Choose/Checked.png) 0px 10px no-repeat;;
+    color: $Gray;
+}
+}
