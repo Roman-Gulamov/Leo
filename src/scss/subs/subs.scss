@@ -3,28 +3,29 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 20px;
+    padding-right: 0;
 
 &__same {
     max-height: 110px;
-    min-width: 480px;
     border-radius: 4px;
-    font-size: 16px;
-    padding: 10px 0 0 19px;
+    font-size: 15px;
+    padding: 10px 0 0 25px;
     
 }
 &__login {
+    min-width: 465px;
     background-color: $Orange;
 }
 
 &__mail {
+    min-width: 480px;
     background-color: $Blue;
 }
 
 &__title {
+    font-size: 29px;
     color: $White;
     padding-bottom: 7px;
-
-    
 }
 
 &__button {
@@ -35,11 +36,11 @@
     font-size: 15px;
 
 &:hover {
-    background-color: rgba(68, 68, 68, 0.8);
+    background-color: rgba(68, 68, 68, 0.7);
 }
 
 &:focus {
-    outline: 1px solid rgba(68, 68, 68, 0.8);
+    outline: 1px solid rgba(68, 68, 68, 0.7);
 }
-}
+} // .subs__button
 }

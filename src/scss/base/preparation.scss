@@ -29,19 +29,17 @@ hr {
 	height: 1px;
 }
 
-input {
-	margin: 8px 0;
-	padding: 0 0 3px 12px;
-	background-color: $Input;
-	border-style: none;
-
-&:focus {
-	outline: 2px solid $Black;
-}
-
-&::-webkit-input-placeholder { 
-	color: darken(#787878, 35%); 
-}
+.logo {
+	max-width: 222px;
+    font-family: $Mrs;
+    font-style: italic;
+    padding-top: 40px;
+    opacity: 0.68;
+	font-size: 108px;
+	
+&:hover {
+	text-decoration: none;
+	}  
 }
 
 html, body, div, span, applet, object, iframe,

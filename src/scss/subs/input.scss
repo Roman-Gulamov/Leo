@@ -1,0 +1,28 @@
+input {
+	margin: 8px 0;
+	padding: 0 0 3px 12px;
+	background-color: $Input;
+    border-style: none;
+    font-size: 15px;
+
+&:focus {
+	outline: 2px solid $Gray;
+}
+
+&::-webkit-input-placeholder { 
+    color: $Gray; 
+    font-weight: 700;
+}
+
+&[type="email"] {
+    width: 60%;
+}
+}
+
+.subs__login input[type="password"] {
+    margin-left: 8px;
+}
+
+.subs__mail input[type="submit"] {
+    margin-left: 67px;
+}

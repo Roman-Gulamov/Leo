@@ -7,16 +7,9 @@
 }
 
 .header__logo {
-    max-width: 222px;
-    font-family: $Mrs;
-    font-style: italic;
-    padding-top: 40px;
-    opacity: 0.68;
-    font-size: 108px;
     color: $White;
 
 &:hover {
     color: $White;
-    text-decoration: none;
     }   
 }
