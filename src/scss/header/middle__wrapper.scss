@@ -44,17 +44,19 @@
     line-height: 1.7;
 }
 
-.header__btn {
+.header__button {
     width: 135px;
     height: 40px;
     font-family: $SegoeSL;
-    margin: 8px 0 0 10px;
     background-color: $Green;
-    border: 0;
-    padding: 0;
     color: $White;
     opacity: 0.8;
     outline: 4px solid rgba(0, 0, 0, 0.2);
+
+&:focus {
+    outline: 4px solid rgba(0, 0, 0, 0.2);
+}
+        
 }
 
 .arrow {

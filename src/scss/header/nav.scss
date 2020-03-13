@@ -16,7 +16,7 @@
     }
     
 &:hover {
-    color: lighten($Hover, 40%);
+    color: lighten($Light-Gray, 40%);
     text-decoration: none;
     }
     
@@ -37,7 +37,7 @@
     transition: all 0.25s ease-in-out;
     
 &:hover {
-    background-color: $Hover;
+    background-color: $Light-Gray;
         }
     }
 }//nav__menu__list

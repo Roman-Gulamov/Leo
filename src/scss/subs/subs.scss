@@ -1,0 +1,45 @@
+.subs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+
+&__same {
+    max-height: 110px;
+    min-width: 480px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 0 0 19px;
+    
+}
+&__login {
+    background-color: $Orange;
+}
+
+&__mail {
+    background-color: $Blue;
+}
+
+&__title {
+    color: $White;
+    padding-bottom: 7px;
+
+    
+}
+
+&__button {
+    height: 30px;
+    width: 95px;
+    color: $White;
+    background-color: $Subs-button;
+    font-size: 15px;
+
+&:hover {
+    background-color: rgba(68, 68, 68, 0.8);
+}
+
+&:focus {
+    outline: 1px solid rgba(68, 68, 68, 0.8);
+}
+}
+}

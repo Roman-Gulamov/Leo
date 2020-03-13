@@ -5,17 +5,43 @@
     line-height: 24px;
 }
 
+.btn {
+    font-family: $SegoeSL;
+    margin: 8px 0 0 10px;
+    border: 0;
+    padding: 0;
+
+&:active {
+	transform: scale(0.97);
+}
+}
+
 .container {
 	max-width: 1020px;
 	margin: auto;
 }
 
-button:focus {
-	outline: 4px solid rgba(0, 0, 0, 0.2);
+hr {
+	border: none;
+	margin-top: 50px;
+	background-color: lighten($Light-Gray, 25%);
+	color: lighten($Light-Gray, 25%);
+	height: 1px;
 }
 
-button:active {
-	transform: scale(0.97);
+input {
+	margin: 8px 0;
+	padding: 0 0 3px 12px;
+	background-color: $Input;
+	border-style: none;
+
+&:focus {
+	outline: 2px solid $Black;
+}
+
+&::-webkit-input-placeholder { 
+	color: darken(#787878, 35%); 
+}
 }
 
 html, body, div, span, applet, object, iframe,
