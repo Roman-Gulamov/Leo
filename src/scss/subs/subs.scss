@@ -4,22 +4,25 @@
     flex-wrap: wrap;
     padding-top: 20px;
     padding-right: 0;
+    padding-bottom: 40px;
 
 &__same {
     max-height: 110px;
     border-radius: 4px;
     font-size: 15px;
-    padding: 10px 0 0 25px;
+    padding: 10px 0 14px 25px;
     
 }
 &__login {
     min-width: 465px;
     background-color: $Orange;
+    caret-color: $Orange;
 }
 
 &__mail {
     min-width: 480px;
     background-color: $Blue;
+    caret-color: $Blue;
 }
 
 &__title {

@@ -47,7 +47,7 @@
 
         <div class="header__middle__wrapper">
                 <div class="header__content__wrapper">
-                    <img src="src/img/Header/left-arrow.svg" class="arrow" alt="left-arrow">
+                    <img src="src/img/Header/left-arrow.svg" class="header__arrow arrow" alt="left-arrow">
                     <div class="header__content">
                         <img src="src/img/Header/coffee.png" class="header__coffee" alt="Coffee">
                         <div class="header__text">
@@ -56,7 +56,7 @@
                             <button class="header__button btn">Try Demo</button>
                         </div>
                     </div>
-                    <img src="src/img/Header/right-arrow.svg" class="arrow" alt="right-arrow">
+                    <img src="src/img/Header/right-arrow.svg" class="header__arrow arrow" alt="right-arrow">
                 </div>
         </div> <!-- header__middle__wrapper -->
     </header>
@@ -139,16 +139,16 @@
     <section class="subs container">
         <div class="subs__login subs__same">
             <div class="subs__title">Member login</div>
-            <form>
-                <input type="mail" required placeholder="User Name">
-                <input type="password" required placeholder="Password">
+            <form action="#">
+                <input type="text" required oninvalid="this.setCustomValidity('&#128522; Мося, введи имя &#128522')" oninput="setCustomValidity('')" placeholder="User Name">
+                <input type="password" required oninvalid="this.setCustomValidity('&#128528;Мося, пароль... &#128528;')" oninput="setCustomValidity('')" placeholder="Password">
                 <input type="submit" class="subs__button btn" value="Log me in.">
             </form>
         </div>
         <div class="subs__mail subs__same">
             <div class="subs__title">Subscribe to our weekly newsletter</div>
             <form>
-                <input type="email" required placeholder="email address">
+                <input type="email" pattern=".+@mail.ru" size="30" required oninput="setCustomValidity('@mail.ru')" placeholder="email address">
                 <input type="submit" class="subs__button btn" value="Subscribe">
             </form>
         </div>
@@ -156,42 +156,44 @@
 
 
     <footer class="footer">
-        <div class="container">
+        <div class="footer__wrapper">
             <div class="footer__about">
                 <div class="footer__title">About Us</div>
-                <nav class="footer__nav">
-                    <a href="#">About us</a>
-                    <a href="#">Why us</a>
-                    <a href="#">Customer Stories</a>
-                    <a href="#">Press Resources</a>
-                    <a href="#">Press Releases</a>
-                    <a href="#">Contact us</a>
+                <nav>
+                    <a class="footer__nav" href="#">About us</a>
+                    <a class="footer__nav" href="#">Why us</a>
+                    <a class="footer__nav" href="#">Customer Stories</a>
+                    <a class="footer__nav" href="#">Press Resources</a>
+                    <a class="footer__nav" href="#">Press Releases</a>
+                    <a class="footer__nav" href="#">Contact us</a>
                 </nav>
             </div>
             <div class="footer__about">
                 <div class="footer__title">About Us</div>
-                <nav class="footer__nav">
-                    <a href="#">About us</a>
-                    <a href="#">Why us</a>
-                    <a href="#">Customer Stories</a>
-                    <a href="#">Press Resources</a>
-                    <a href="#">Press Releases</a>
-                    <a href="#">Contact us</a>
+                <nav>
+                    <a class="footer__nav" href="#">About us</a>
+                    <a class="footer__nav" href="#">Why us</a>
+                    <a class="footer__nav" href="#">Customer Stories</a>
+                    <a class="footer__nav" href="#">Press Resources</a>
+                    <a class="footer__nav" href="#">Press Releases</a>
+                    <a class="footer__nav" href="#">Contact us</a>
                 </nav>
             </div>
-            <div class="footer__right">
+            <div class="footer__slider">
                 <div class="footer__title">Testimoanials</div>
-                <img src="/src/img/Footer/left.png" alt="left-arrow">
-                <img src="/src/img/Footer/right.png" alt="right-arrow">
-                <div class="footer__text">Lorem Ipsum is simply dummy text of the printing and 
-                    typesetting industry. Lorem Ipsum has been the industr
-                    standard dummy text ever since the 1500s, 
-                    when an unknown printer took a <span class="footer__span">Lorem Ipsum is simply
+                <div class="footer__arrow">
+                    <img src="/src/img/Footer/left.png" class="arrow" alt="left-arrow">
+                    <img src="/src/img/Footer/right.png" class="arrow" alt="right-arrow">
+                </div>
+                <div class="footer__text">Lorem Ipsum is simply dummy text of the printing and <br>
+                    typesetting industry. Lorem Ipsum has been the industr <br>
+                    standard dummy text ever since the 1500s, <br>
+                    when an unknown printer took a <br> <span class="footer__span">Lorem Ipsum is simply <br>
                         Owner, Lorem Ipsum</span> </div>
             </div>
             <div class="footer__logo">
-                <a href="#" title="Leo/-" class="footer__logo logo">Leo/-</a>
-                <a href="https://www.cssauthor.com" class="footer_copyright"> &copy; cssauthor.com</a>
+                <a href="#" title="Leo/-" class="footer__leo logo">Leo/-</a>
+                <a href="https://www.cssauthor.com" class="footer_copyright" title="https://www.cssauthor.com"> &copy; cssauthor.com</a>
             </div>
         </div>
     </footer> <!-- footer -->

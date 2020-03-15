@@ -1,15 +1,22 @@
-.header__top__wrapper {
+.header {
+
+&__top__wrapper {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 50px;
     min-height: 220px;
 }
-
-.header__logo {
+    
+&__logo {
     color: $White;
-
+    padding-top: 40px;
+    transition: $Transition;
+    
 &:hover {
-    color: $White;
+    color: darken($White, 30%);
     }   
 }
+}
+
+

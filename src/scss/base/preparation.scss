@@ -5,6 +5,14 @@
     line-height: 24px;
 }
 
+.arrow {
+    cursor: pointer;
+
+&:active {
+    transform: scale(0.94);
+}
+}
+
 .btn {
     font-family: $SegoeSL;
     margin: 8px 0 0 10px;
@@ -30,12 +38,11 @@ hr {
 }
 
 .logo {
+	font-size: 106px;
 	max-width: 222px;
     font-family: $Mrs;
     font-style: italic;
-    padding-top: 40px;
     opacity: 0.68;
-	font-size: 108px;
 	
 &:hover {
 	text-decoration: none;

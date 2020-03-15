@@ -1,0 +1,37 @@
+.footer {
+    
+&__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-grow: 4;
+    
+}
+    
+&__leo {
+    color: $Footer-logo;
+    transition: $Transition;
+    align-self: flex-end;
+
+
+&:hover {
+    color: lighten($Footer, 10%);
+} 
+}
+    
+&_copyright {
+    font-size: 13px;
+    color: $White;
+    margin-left: 32px;
+    transition: $Transition;
+    
+&:hover {
+    color: darken($White, 30%);
+    text-decoration: underline;
+}
+}
+}
+
+
+

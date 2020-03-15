@@ -1,0 +1,28 @@
+.footer {
+
+&__about {
+    color: $White;
+    flex-grow: 9;
+}
+
+&__title {
+    color: rgba(255,255,255,0.85);
+    font-size: 24px;
+    line-height: 1.8;
+    display: inline-block;
+}
+
+&__nav {
+    display: block;
+    color: $Footer;
+    font-weight: 600;
+    line-height: 1.7;
+    font-size: 13px;
+    transition: all 0.2s ease;
+
+&:hover {
+    color: lighten($Footer, 15%);
+    text-decoration: none;
+}
+} 
+}

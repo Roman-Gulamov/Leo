@@ -4,6 +4,7 @@ input {
 	background-color: $Input;
     border-style: none;
     font-size: 15px;
+    transition: $Transition;
 
 &:focus {
 	outline: 2px solid $Gray;

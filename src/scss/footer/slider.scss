@@ -1,0 +1,30 @@
+.footer {
+    
+&__slider {
+    color: $Footer;
+}
+    
+&__arrow {
+    display: inline-block;
+    margin-left: 45px;
+}
+    
+&__text {
+    padding-top: 8px;
+    font-size: 13px;
+    line-height: 1.7;
+    color: $Footer;
+    font-weight: 600;
+}
+    
+&__span {
+    font-size: 13px;
+    color: darken($White, 15%);
+    font-weight: 900;
+    line-height: 1;
+}
+}
+
+
+
+

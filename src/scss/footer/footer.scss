@@ -1,4 +1,15 @@
 .footer {
     background-image: url(/src/img/Footer/bg.png);
-    margin-top: 40px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    
+
+&__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 907px;
+    margin: auto;
 }
+}
+

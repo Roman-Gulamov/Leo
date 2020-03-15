@@ -1,50 +1,53 @@
-.header__middle__wrapper {
+.header {
+
+&__middle__wrapper {
     max-width: 1180px;
     margin: auto;
 }
-
-.header__content__wrapper {
+    
+&__content__wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
-
-.header__content {
+    
+&__content {
     display: flex;
     width: 780px;
     height: auto;
     align-items: center;
     justify-content: space-between;
 }
-
-.header__coffee {
+    
+&__coffee {
     width: auto;
     height: 325px;
 }
-
-.header__text {
+    
+&__text {
     font-family: $SegoeSL;
     color: $White;
     margin-bottom: 80px;
     margin-right: 55px;
 }
-
-.header__title {
+    
+&__title {
     font-family: $SegoeSB;
     font-size: 60px;
     letter-spacing: 2px;
     line-height: 0.75;
-    
+        
 }
-
-.header__subtitle {
+    
+&__subtitle {
     letter-spacing: 1px;
     font-size: 38px;
     font-weight: 400;
     line-height: 1.7;
 }
-
-.header__button {
+    
+&__button {
     width: 135px;
     height: 40px;
     font-family: $SegoeSL;
@@ -52,22 +55,20 @@
     color: $White;
     opacity: 0.8;
     outline: 4px solid rgba(0, 0, 0, 0.2);
-
+    
 &:focus {
     outline: 4px solid rgba(0, 0, 0, 0.2);
+}       
 }
-        
-}
-
-.arrow {
+    
+&__arrow {
     display: flex;
     align-self: center;
     margin-bottom: 100px;
     max-width: 50px;
     max-height: 50px;
-    cursor: pointer;
+}
+    }
 
-&:active {
-    transform: scale(0.94);
-}
-}
+
+
