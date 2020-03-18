@@ -5,14 +5,6 @@
     line-height: 24px;
 }
 
-.arrow {
-    cursor: pointer;
-
-&:active {
-    transform: scale(0.94);
-}
-}
-
 .btn {
     font-family: $SegoeSL;
     margin: 8px 0 0 10px;

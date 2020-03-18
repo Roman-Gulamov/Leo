@@ -1,52 +1,33 @@
-.header {
+.header { 
 
-&__middle__wrapper {
-    max-width: 1180px;
-    margin: auto;
-}
-    
-&__content__wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-}
-    
-&__content {
-    display: flex;
-    width: 780px;
-    height: auto;
-    align-items: center;
-    justify-content: space-between;
-}
-    
 &__coffee {
     width: auto;
     height: 325px;
-}
     
+}
+
 &__text {
     font-family: $SegoeSL;
     color: $White;
-    margin-bottom: 80px;
-    margin-right: 55px;
+    align-self: center;
+    max-height: 165px;
+    margin: 0 100px 100px 50px;
 }
-    
+
 &__title {
     font-family: $SegoeSB;
     font-size: 60px;
     letter-spacing: 2px;
     line-height: 0.75;
-        
 }
-    
+
 &__subtitle {
     letter-spacing: 1px;
     font-size: 38px;
     font-weight: 400;
     line-height: 1.7;
 }
-    
+
 &__button {
     width: 135px;
     height: 40px;
@@ -56,19 +37,12 @@
     opacity: 0.8;
     outline: 4px solid rgba(0, 0, 0, 0.2);
     
+&:hover { 
+    background-color: darken($Green, 5%);
+}
+
 &:focus {
     outline: 4px solid rgba(0, 0, 0, 0.2);
 }       
 }
-    
-&__arrow {
-    display: flex;
-    align-self: center;
-    margin-bottom: 100px;
-    max-width: 50px;
-    max-height: 50px;
-}
-    }
-
-
-
+} // .header

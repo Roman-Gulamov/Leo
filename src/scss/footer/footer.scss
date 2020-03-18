@@ -1,3 +1,4 @@
+//! FOOTER //
 .footer {
     background-image: url(/src/img/Footer/bg.png);
     padding-top: 34px;
@@ -12,4 +13,7 @@
     margin: auto;
 }
 }
-
+@import "../footer/logo.scss";
+@import "../footer/slider-footer.scss";
+@import "../footer/about.scss";
+//! -FOOTER- //

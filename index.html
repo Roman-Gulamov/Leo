@@ -45,10 +45,9 @@
             </div> <!-- header__top__wrapper -->
         </div> <!-- container -->
 
-        <div class="header__middle__wrapper">
-                <div class="header__content__wrapper">
-                    <img src="src/img/Header/left-arrow.svg" class="header__arrow arrow" alt="left-arrow">
-                    <div class="header__content">
+            <div class="header__slider">
+                <div class="header__slider__wrapper">
+                    <div class="header__slider__item">
                         <img src="src/img/Header/coffee.png" class="header__coffee" alt="Coffee">
                         <div class="header__text">
                             <h1 class="header__title">Introducing</h1>
@@ -56,9 +55,18 @@
                             <button class="header__button btn">Try Demo</button>
                         </div>
                     </div>
-                    <img src="src/img/Header/right-arrow.svg" class="header__arrow arrow" alt="right-arrow">
+                    <div class="header__slider__item">
+                        <img src="src/img/Header/tea.png" class="header__coffee" alt="Coffee" style="height: 400px;">
+                        <div class="header__text">
+                            <h1 class="header__title">Introducing</h1>
+                            <h2 class="header__subtitle">Something cold......</h2>
+                            <button class="header__button btn">Try Memo</button>
+                        </div>
+                    </div>
                 </div>
-        </div> <!-- header__middle__wrapper -->
+                <a class="header__slider__control header__slider__control_left" href="#" role="button"></a>
+                <a class="header__slider__control header__slider__control_right" href="#" role="button"></a>
+            </div> <!-- header__slider -->
     </header>
 
 
@@ -182,14 +190,14 @@
             <div class="footer__slider">
                 <div class="footer__title">Testimoanials</div>
                 <div class="footer__arrow">
-                    <img src="/src/img/Footer/left.png" class="arrow" alt="left-arrow">
-                    <img src="/src/img/Footer/right.png" class="arrow" alt="right-arrow">
+                    <img src="/src/img/Footer/left.png" alt="left-arrow">
+                    <img src="/src/img/Footer/right.png" alt="right-arrow">
                 </div>
                 <div class="footer__text">Lorem Ipsum is simply dummy text of the printing and <br>
                     typesetting industry. Lorem Ipsum has been the industr <br>
                     standard dummy text ever since the 1500s, <br>
                     when an unknown printer took a <br> <span class="footer__span">Lorem Ipsum is simply <br>
-                        Owner, Lorem Ipsum</span> </div>
+                    Owner, Lorem Ipsum</span> </div>
             </div>
             <div class="footer__logo">
                 <a href="#" title="Leo/-" class="footer__leo logo">Leo/-</a>
@@ -197,6 +205,8 @@
             </div>
         </div>
     </footer> <!-- footer -->
+
+
     <script type="text/javascript" src="dist/bundle.js"></script> 
 </body>
 </html>

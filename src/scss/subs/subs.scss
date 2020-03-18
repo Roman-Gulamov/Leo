@@ -1,3 +1,4 @@
+//! SUBS //
 .subs {
     display: flex;
     justify-content: space-between;
@@ -47,3 +48,5 @@
 }
 } // .subs__button
 }
+@import "../scss/subs/input.scss";
+//! -SUBS- //
