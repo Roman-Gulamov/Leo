@@ -1,3 +1,4 @@
+//! SlIDER //
 'use strict';
     let multiItemSlider = (function () {
       return function (selector, config) {
@@ -98,3 +99,4 @@
     }());
 
     let slider = multiItemSlider('.header__slider')
+//! -SlIDER- //

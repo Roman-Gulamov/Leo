@@ -1,14 +1,5 @@
 .footer {
     
-&__slider {
-    color: $Footer;
-}
-    
-&__arrow {
-    display: inline-block;
-    margin-left: 45px;
-}
-    
 &__text {
     padding-top: 8px;
     font-size: 13px;
@@ -25,6 +16,58 @@
 }
 }
 
+
+.footer__slider {
+    position: relative;
+    overflow: hidden;
+    max-width: 315px;
+    margin: auto;
+    color: $Footer;
+
+&__wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+    
+&__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+&__arrow {
+    position: absolute;
+    display: inline-flex;
+    top: 10%;
+    right: 30%;
+}
+
+&__control {
+    display: flex;
+}
+    
+&__control:hover,
+&__control:focus {
+    opacity: 0.6;
+}
+    
+&__control::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+}
+    
+&__control_left::before {
+    background-image: url("/src/img/Footer/left.png");
+    margin-right: 7px;
+}
+    
+&__control_right::before {
+    background-image: url("/src/img/Footer/right.png");
+}
+} // .footer__slider
 
 
 

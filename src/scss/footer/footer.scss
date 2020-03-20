@@ -12,6 +12,12 @@
     max-width: 907px;
     margin: auto;
 }
+
+&__title {
+    color: rgba(255,255,255,0.85);
+    font-size: 24px;
+    line-height: 1.8;
+}
 }
 @import "../footer/logo.scss";
 @import "../footer/slider-footer.scss";
