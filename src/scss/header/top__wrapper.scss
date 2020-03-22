@@ -3,9 +3,12 @@
 &__top__wrapper {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding-top: 50px;
     min-height: 220px;
+
+@media screen and (max-width: 800px) {
+    padding-top: 15px;
+}
 }
     
 &__logo {
@@ -16,8 +19,13 @@
 &:hover {
     color: darken($White, 30%);
     text-decoration: none;
-    }   
+} 
+
+@media screen and (max-width: 800px) {
+    margin: auto;
+    padding-top: 0px;
 }
+} //.header__logo
 }
 
 

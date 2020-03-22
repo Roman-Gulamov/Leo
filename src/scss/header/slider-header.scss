@@ -16,6 +16,11 @@
   flex: 0 0 100%;
   max-width: 100%;
   max-height: 330px;
+  overflow: hidden;
+  
+  @media screen and (max-width: 850px) {
+    flex-wrap: nowrap;
+}
 }
 
 &__control {
@@ -42,10 +47,19 @@
   width: 50px;
   height: 50px;
   background-size: 100% 100%;
+
+@media screen and (max-width: 850px) {
+  width: 40px;
+  height: 40px;
+}
 }
   
 &__control_left::before {
   background-image: url("/src/img/Header/left-arrow.svg");
+
+@media screen and (max-width: 900px) {
+  display: none;
+}
 }
   
 &__control_right::before {

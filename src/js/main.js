@@ -1,5 +1,6 @@
-import './header__nav';
+import './burger';
 import './tabs';
 import './header__slider';
 import './footer__slider';
+
 

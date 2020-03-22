@@ -4,6 +4,10 @@
     background-size: cover;
     max-width: 100%;
     height: 485px;
+
+@media screen and (max-width: 850px) {
+    height: 450px;
+}
 }//header
 
 @import "../header/top__wrapper.scss";
