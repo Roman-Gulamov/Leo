@@ -23,8 +23,9 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babelrc": "0.0.7",
     "bootstrap": "^4.4.1",
-    "flexslider": "^2.7.2",
     "jquery": "^3.4.1",
     "module-alias": "^2.2.2",
     "popper.js": "^1.16.1"

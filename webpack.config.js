@@ -18,6 +18,7 @@ module.exports = {
           use: ['css-loader', 'sass-loader']
         })
       },
+
       {
         test: /\.(eot|svg|ttf|woff|woff2)$/,
         use: [
@@ -30,12 +31,13 @@ module.exports = {
   },
 
   devServer: {
-    contentBase: [path.resolve(__dirname, "build"), path.resolve(__dirname, "src")],
+    contentBase: [path.resolve(__dirname, "build"), path.resolve(__dirname, "./src")],
     compress: true,
     port: 4200,
     historyApiFallback: true,
     noInfo:true
 },
+
   plugins: [
     new ExtractTextPlugin('style.css'),
     new webpack.ProvidePlugin({

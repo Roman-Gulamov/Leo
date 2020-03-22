@@ -25,7 +25,7 @@
     list-style-type: none;
     margin-top: 5px;
     background-color: rgba(80, 91, 99, 0.1);
-    width: 95px;
+    width: 102px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     
 & a {
@@ -33,7 +33,7 @@
     font-size: 0.76rem;
     border: 1px solid $Bg;
     color: $White;
-    padding: 10px 10px;
+    padding: 10px 6px;
     transition: all 0.25s ease-in-out;
     
 &:hover {

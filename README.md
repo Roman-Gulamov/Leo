@@ -28,4 +28,5 @@ package.json, а также все их зависимости.
 * Flexbox (основное)
 * jQuery
 * SASS
+* Schema.org
 * Webpack 4
