@@ -4,10 +4,11 @@
     width: auto;
     height: 325px;
 
-@media screen and (max-width: 850px) {
-    width: 250px;
+@media screen and (max-width: 800px) {
+    width: 220px;
     height: auto;
     margin-top: 15px;
+    padding-left: 40px;
 }
 }
 
@@ -16,9 +17,10 @@
     height: auto;
 
 @media screen and (max-width: 850px) {
-    width: 240px;
+    width: 220px;
     height: auto;
     margin-top: 20px;
+    padding-left: 40px;
 }
 }
 

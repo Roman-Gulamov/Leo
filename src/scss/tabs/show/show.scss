@@ -2,42 +2,61 @@
     position: relative;
     min-height: 825px;
 
-    @media screen and (max-width: 880px) {
-        min-height: 880px;
-    }
+@media screen and (max-width: 900px) {
+    height: 731px;
+}
+
+@media screen and (max-width: 610px) {
+    min-height: 720px;
+}
 
 &__active {
     visibility: visible !important;
     border-radius: 2px;
     box-shadow: 0px 0px 5px 0px $Shadow inset;
     animation: spoiler 1.5s;
-    z-index: 1;
+    height: 100%;
 }
 
 &__img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+    margin: 100px auto 50px auto;
     max-width: 732px;
-    max-height: 349px;
+    max-height: 315px;
 
+@media screen and (max-width: 900px) {
+    max-width: 70%;
+    max-height: 70%;
+    margin-bottom: 0;
+    
+}
 }
     
 &__text {
     line-height: 2;
     color: lighten($Black, 40%);
     font-weight: 300;
-    font-size: 36px;
-    max-width: 874px;
+    font-size: 37px;
+    max-width: 100%;
     margin: auto;
+    margin-left: 63px;
+
+@media screen and (max-width: 700px) {
+    font-size: 28px;
+    margin-left: 25px;
+}
 }
     
 &__smalltext {
-    font-size: 14px;
+    font-size: 15px;
     color: $Gray;
     word-wrap: break-word;
     margin: 0 66px 50px 66px;
+
+@media screen and (max-width: 700px) {
+    font-size: 11px;
+    margin: 0 66px 0px 25px;
+}
 }
 }
 
@@ -75,6 +94,10 @@
     left: 49.3%;
     width: 24.5%;
     background: $White;
+
+@media screen and (max-width: 630px) {
+    left: 48.3%;
+}
 }
 
 &__magnifier::before {
@@ -85,5 +108,10 @@
     left: 73.78%;
     width: 24.5%;
     background: $White;
+
+@media screen and (max-width: 630px) {
+    left: 71.78%;
+    width: 24.9%;
+}
 }
 }

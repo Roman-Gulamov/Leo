@@ -20,9 +20,13 @@
 .footer__slider {
     position: relative;
     overflow: hidden;
-    max-width: 315px;
+    max-width: 350px;
     margin: auto;
     color: $Footer;
+
+@media screen and (max-width: 800px) {
+    margin-top: 10px;
+}
 
 &__wrapper {
     display: flex;

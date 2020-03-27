@@ -6,7 +6,10 @@
     justify-content: space-between;
     margin-top: 70px;
     flex-grow: 4;
-    
+
+@media screen and (max-width: 800px) {
+    margin-top: 50px;
+}
 }
     
 &__leo {
@@ -14,6 +17,9 @@
     transition: $Transition;
     align-self: flex-end;
 
+@media screen and (max-width: 800px) {
+    margin-right: 10px;
+}
 
 &:hover {
     color: lighten($Footer, 10%);
@@ -29,6 +35,10 @@
 &:hover {
     color: darken($White, 30%);
     text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    text-align: left;
 }
 }
 }

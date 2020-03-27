@@ -17,5 +17,11 @@
     color: lighten($Footer, 15%);
     text-decoration: none;
 }
+
+@media screen and (max-width: 550px) {
+    margin: auto;
+    width: 40%;
+}
+
 } 
 }

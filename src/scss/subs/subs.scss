@@ -14,16 +14,31 @@
     padding: 10px 0 14px 25px;
     
 }
+
 &__login {
     min-width: 465px;
     background-color: $Orange;
     caret-color: $Orange;
+
+@media (min-width: 650px) and (max-width: 962px) {
+    width: 100%;
+    text-align: center;
+}
 }
 
 &__mail {
-    min-width: 480px;
+    min-width: 466px;
     background-color: $Blue;
     caret-color: $Blue;
+
+@media (min-width: 650px) and (max-width: 962px) {
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 962px) {
+    margin-top: 30px;
+}
 }
 
 &__title {

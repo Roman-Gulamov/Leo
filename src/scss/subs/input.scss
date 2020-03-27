@@ -6,6 +6,10 @@ input {
     font-size: 15px;
     transition: $Transition;
 
+@media (min-width: 650px) and (max-width: 962px) {
+    font-size: 18px;
+}
+
 &:focus {
 	outline: 2px solid $Gray;
 }

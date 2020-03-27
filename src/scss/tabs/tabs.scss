@@ -10,8 +10,12 @@
 }
 
 &__img {
-    max-width: 120px;
-    max-height: 150px;
+    width: 120px;
+    height: auto;
+
+@media screen and (max-width: 600px) {
+    width: 100px;
+}
 }
 
 &__bold {
@@ -21,10 +25,13 @@
 &__text {
     font-family: "Segoe WP Semilight";
     padding-top: 10px;
-    font-size: 23px;
     font-weight: 400;
     color: $Gray;
     line-height: 1.25;
+
+@media screen and (max-width: 650px) {
+    font-size: 19px;
+}
 }
 
 &__active {
@@ -39,5 +46,5 @@
 }
 
 .web {
-    font-size: 19px;
+    font-size: 18px;
 }
