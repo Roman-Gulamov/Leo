@@ -27,8 +27,14 @@
   display: flex;
   position: absolute;
   top: 20%;
+  cursor: pointer;
+
+@media screen and (max-width: 850px) {
+  width: 40px;
+  height: 40px;
 }
-  
+}
+
 &__control:hover,
 &__control:focus {
   opacity: 0.6;
@@ -36,34 +42,14 @@
   
 &__control_left {
   left: 0;
-}
-  
-&__control_right {
-  right: 0;
-}
-  
-&__control::before {
-  content: '';
-  width: 50px;
-  height: 50px;
-  background-size: 100% 100%;
-
-@media screen and (max-width: 850px) {
-  width: 40px;
-  height: 40px;
-}
-}
-  
-&__control_left::before {
-  background-image: url("/src/img/Header/left-arrow.svg");
 
 @media screen and (max-width: 900px) {
   display: none;
 }
 }
   
-&__control_right::before {
-  background-image: url("/src/img/Header/right-arrow.svg");
+&__control_right {
+  right: 0;
 }
 } // .header__slider
 

@@ -5,7 +5,7 @@
     height: 325px;
 
 @media screen and (max-width: 800px) {
-    width: 220px;
+    max-width: 220px;
     height: auto;
     margin-top: 15px;
     padding-left: 40px;

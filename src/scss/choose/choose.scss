@@ -7,6 +7,11 @@
 &__img {
     width: auto;
     height: 310px;
+
+@media screen and (max-width: 600px) {
+    max-width: 100%;
+    height: auto;
+}
 }
 
 &__title {
@@ -24,7 +29,6 @@
     font-size: 15px;
     line-height: 2.3;
     padding-left: 30px;
-    background: url(/src/img/Choose/Checked.png) 0px 10px no-repeat;;
     color: $Gray;
 
 @media screen and (max-width: 550px) {

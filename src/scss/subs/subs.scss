@@ -4,36 +4,32 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 20px;
-    padding-right: 0;
     padding-bottom: 40px;
 
 &__same {
     max-height: 110px;
     border-radius: 4px;
-    font-size: 15px;
     padding: 10px 0 14px 25px;
+    margin: auto;
     
 }
 
 &__login {
-    min-width: 465px;
     background-color: $Orange;
     caret-color: $Orange;
 
 @media (min-width: 650px) and (max-width: 962px) {
-    width: 100%;
     text-align: center;
 }
 }
 
 &__mail {
-    min-width: 466px;
     background-color: $Blue;
     caret-color: $Blue;
 
 @media (min-width: 650px) and (max-width: 962px) {
-    width: 100%;
     text-align: center;
+    min-width: 515px;
 }
 
 @media screen and (max-width: 962px) {

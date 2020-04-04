@@ -50,6 +50,7 @@
 
 &__control {
     display: flex;
+    cursor: pointer;
 }
     
 &__control:hover,
@@ -57,19 +58,8 @@
     opacity: 0.6;
 }
     
-&__control::before {
-    content: '';
-    width: 16px;
-    height: 16px;
-}
-    
-&__control_left::before {
-    background-image: url("/src/img/Footer/left.png");
+&__control_left {
     margin-right: 7px;
-}
-    
-&__control_right::before {
-    background-image: url("/src/img/Footer/right.png");
 }
 } // .footer__slider
 
