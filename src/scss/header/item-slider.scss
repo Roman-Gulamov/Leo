@@ -4,9 +4,15 @@
     width: auto;
     height: 325px;
 
+<<<<<<< HEAD
 @media all and (max-width: 800px) {
     max-width: 226px;
     height: 200px;
+=======
+@media screen and (max-width: 800px) {
+    max-width: 220px;
+    height: auto;
+>>>>>>> 8e90cc85ae7ae7a69fc3f726085d841181bcfd71
     margin-top: 15px;
     padding-left: 40px;
 }

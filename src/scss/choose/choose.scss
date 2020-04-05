@@ -8,9 +8,15 @@
     width: auto;
     height: 310px;
 
+<<<<<<< HEAD
 @media all and (max-width: 450px) {
     width: auto;
     max-height: 245px;
+=======
+@media screen and (max-width: 600px) {
+    max-width: 100%;
+    height: auto;
+>>>>>>> 8e90cc85ae7ae7a69fc3f726085d841181bcfd71
 }
 }
 
