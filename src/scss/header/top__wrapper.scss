@@ -7,7 +7,11 @@
     min-height: 220px;
 
 @media screen and (max-width: 800px) {
-    padding-top: 15px;
+    padding-top: 93px;
+}
+
+@media screen and (max-width: 450px) {
+    padding-top: 139px;
 }
 }
     
@@ -16,14 +20,24 @@
     padding-top: 40px;
     transition: $Transition;
     
+@media all and (max-width: 800px) {
+    margin: auto;
+    padding-top: 0px;
+}
+
+@media all and (max-width: 450px) and (min-height: 812px) {
+    padding-top: 70px;
+}
+
 &:hover {
     color: darken($White, 30%);
     text-decoration: none;
 } 
 
-@media screen and (max-width: 800px) {
-    margin: auto;
-    padding-top: 0px;
+& .logo {
+@media all and (max-width: 450px) {
+	font-size: 140px;    
+}
 }
 } //.header__logo
 }

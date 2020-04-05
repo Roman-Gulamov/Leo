@@ -4,11 +4,18 @@
     width: auto;
     height: 325px;
 
-@media screen and (max-width: 800px) {
-    width: 220px;
-    height: auto;
+@media all and (max-width: 800px) {
+    max-width: 226px;
+    height: 200px;
     margin-top: 15px;
     padding-left: 40px;
+}
+
+@media all and (max-width: 450px) {
+    width: auto;
+    height: 200px;
+    margin: auto;
+    padding-left: 0px;
 }
 }
 
@@ -16,11 +23,18 @@
     width: 300px;
     height: auto;
 
-@media screen and (max-width: 850px) {
+@media all and (max-width: 850px) {
     width: 220px;
-    height: auto;
+    height: 200px;
     margin-top: 20px;
     padding-left: 40px;
+}
+
+@media all and (max-width: 450px) {
+    max-width: 210px;
+    height: 175px;
+    padding-left: 0px;
+    margin-top: 0px;
 }
 }
 
@@ -32,11 +46,15 @@
     margin: 0 100px 100px 50px;
 
 @media screen and (max-width: 850px) {
-    margin: 0 100px 55px 35px;
+    margin: 0 100px 164px 35px;
 }
 
 @media screen and (max-width: 650px) {
     margin: 0 100px 55px 20px;
+}
+
+@media screen and (max-width: 450px) {
+    margin: auto;
 }
 }
 
@@ -53,6 +71,11 @@
 @media screen and (max-width: 650px) {
     font-size: 35px;
 }
+
+@media screen and (max-width: 450px) {
+    font-size: 40px;
+    line-height: 1;
+}
 }
 
 &__subtitle {
@@ -68,6 +91,11 @@
 @media screen and (max-width: 650px) {
     font-size: 25px;
 }
+
+@media screen and (max-width: 450px) {
+    font-size: 35px;
+    line-height: 1.3;
+}
 }
 
 &__button {
@@ -79,6 +107,12 @@
     opacity: 0.8;
     outline: 4px solid rgba(0, 0, 0, 0.2);
     
+@media screen and (max-width: 450px) {
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+}
+
 &:hover { 
     background-color: darken($Green, 5%);
 }

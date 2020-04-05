@@ -4,36 +4,36 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 20px;
-    padding-right: 0;
     padding-bottom: 40px;
 
 &__same {
     max-height: 110px;
     border-radius: 4px;
-    font-size: 15px;
     padding: 10px 0 14px 25px;
+    margin: auto;
     
+@media all and (max-width: 450px) {
+    max-height: 160px;
+    padding: 10px 5px 14px 16px;
+}
 }
 
 &__login {
-    min-width: 465px;
     background-color: $Orange;
     caret-color: $Orange;
 
 @media (min-width: 650px) and (max-width: 962px) {
-    width: 100%;
     text-align: center;
 }
 }
 
 &__mail {
-    min-width: 466px;
     background-color: $Blue;
     caret-color: $Blue;
 
 @media (min-width: 650px) and (max-width: 962px) {
-    width: 100%;
     text-align: center;
+    min-width: 515px;
 }
 
 @media screen and (max-width: 962px) {
@@ -44,7 +44,11 @@
 &__title {
     font-size: 29px;
     color: $White;
-    padding-bottom: 7px;
+    padding: 0 10px 7px 0;
+
+@media all and (max-width: 450px) {
+    text-align: center;
+}
 }
 
 &__button {
@@ -53,6 +57,13 @@
     color: $White;
     background-color: $Subs-button;
     font-size: 15px;
+
+@media all and (max-width: 450px) {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+}
 
 &:hover {
     background-color: rgba(68, 68, 68, 0.7);

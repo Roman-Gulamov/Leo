@@ -1,12 +1,16 @@
 //! HEADER //
 .header {
-    background: #cccccc url(/src/img/Header/bg.png);
     background-size: cover;
     max-width: 100%;
     height: 485px;
 
 @media screen and (max-width: 800px) {
-    height: 398px;
+    height: 390px;
+}
+
+@media all and (max-width: 450px) {
+    background-size: auto;
+    height: 100vh;    
 }
 }//header
 

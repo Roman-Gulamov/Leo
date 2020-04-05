@@ -7,8 +7,9 @@
     <link rel="shortcut icon" href="src/img/Web-logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="dist/style.css" type="text/css">
 </head>
+
 <body itemscope itemtype="https://schema.org/Organization">
-    <header class="header">
+    <header class="header" style="background-image: url(src/img/Header/bg.png);">
         <div class="container">
             <div class="header__top__wrapper">
                 <a href="#" title="Leo/-" class="header__logo">
@@ -73,8 +74,8 @@
                         </div>
                     </div>
                 </div>
-                <a class="header__slider__control header__slider__control_left" href="#" role="button"></a>
-                <a class="header__slider__control header__slider__control_right" href="#" role="button"></a>
+                <img src="src/img/Header/left-arrow.svg" class="header__slider__control header__slider__control_left" href="#" role="button">
+                <img src="src/img/Header/right-arrow.svg" class="header__slider__control header__slider__control_right" href="#" role="button"></img>
             </div> <!-- header__slider -->
     </header>
 
@@ -141,12 +142,12 @@
         <div>
             <h3 class="choose__title">Why choose us ?</h3>
             <ul class="choose__list">
-                <li>Lorem Ipsum is simply dummy text of the printing and typesetting</li>
-                <li itemprop="subOrganization">Lorem Ipsum has been the industry's standard dummy text ever</li>
-                <li>When an unknown printer took a galley of type and scrambled</li>
-                <li>It has survived not only five centuries, but also the leap into electronic</li>
-                <li>It was popularised in the 1960s with the release of Letraset sheets containing</li>
-                <li>More recently with desktop publishing software like Aldus PageMaker </li>
+                <li  style="background: url(src/img/Choose/Checked.png) 0px 10px no-repeat;">Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+                <li itemprop="subOrganization" style="background: url(src/img/Choose/Checked.png) 0px 10px no-repeat;">Lorem Ipsum has been the industry's standard dummy text ever</li>
+                <li style="background: url(src/img/Choose/Checked.png) 0px 10px no-repeat;">When an unknown printer took a galley of type and scrambled</li>
+                <li style="background: url(src/img/Choose/Checked.png) 0px 10px no-repeat;">It has survived not only five centuries, but also the leap into electronic</li>
+                <li style="background: url(src/img/Choose/Checked.png) 0px 10px no-repeat;">It was popularised in the 1960s with the release of Letraset sheets containing</li>
+                <li style="background: url(src/img/Choose/Checked.png) 0px 10px no-repeat;">More recently with desktop publishing software like Aldus PageMaker </li>
             </ul>
         </div>
     </section> <!-- choose -->
@@ -157,8 +158,8 @@
         <div class="subs__login subs__same">
             <div class="subs__title">Member login</div>
             <form action="#">
-                <input type="text" required oninvalid="this.setCustomValidity('&#128522; Мося, введи имя &#128522')" oninput="setCustomValidity('')" placeholder="User Name">
-                <input type="password" required oninvalid="this.setCustomValidity('&#128528;Мося, пароль... &#128528;')" oninput="setCustomValidity('')" placeholder="Password">
+                <input type="text" required oninvalid="this.setCustomValidity('&#128522; Введи имя &#128522')" oninput="setCustomValidity('')" placeholder="User Name">
+                <input type="password" required oninvalid="this.setCustomValidity('&#128528; Пароль... &#128528;')" oninput="setCustomValidity('')" placeholder="Password">
                 <input type="submit" class="subs__button btn" value="Log me in.">
             </form>
         </div>
@@ -172,7 +173,7 @@
     </section> <!-- subs -->
 
 
-    <footer class="footer">
+    <footer class="footer" style="background-image: url(src/img/Footer/bg.png);">
         <div class="footer__wrapper">
             <div class="footer__about">
                 <div class="footer__title">About Us</div>
@@ -219,8 +220,8 @@
                     </div>
                 </div>
                 <div class="footer__slider__arrow">
-                    <a class="footer__slider__control footer__slider__control_left" href="#" role="button"></a>
-                    <a class="footer__slider__control footer__slider__control_right" href="#" role="button"></a>
+                    <img src="src/img/Footer/left.png" class="footer__slider__control footer__slider__control_left" href="#" role="button">
+                    <img src="src/img/Footer/right.png" class="footer__slider__control footer__slider__control_right" href="#" role="button">
                 </div>
             </div>
             <div class="footer__logo">

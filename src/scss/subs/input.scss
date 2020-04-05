@@ -1,5 +1,4 @@
 input {
-	margin: 8px 0;
 	padding: 0 0 3px 12px;
 	background-color: $Input;
     border-style: none;
@@ -20,14 +19,33 @@ input {
 }
 
 &[type="email"] {
-    width: 60%;
+    width: 55%;
+
+@media all and (max-width: 450px) {
+    width: 100%;
+}
 }
 }
 
 .subs__login input[type="password"] {
     margin-left: 8px;
+    
+@media all and (max-width: 450px) {
+    width: 49%;
+}
+}
+
+.subs__login input[type="submit"] {
+    
+@media all and (max-width: 450px) {
+    height: 40px;
+}
 }
 
 .subs__mail input[type="submit"] {
     margin-left: 67px;
+
+@media all and (max-width: 450px) {
+    margin-left: 0px;
+}
 }

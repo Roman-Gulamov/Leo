@@ -3,6 +3,10 @@
     justify-content: space-between;
     padding-top: 90px;
 
+@media screen and (max-width: 850px) {
+    padding-top: 60px;
+}
+
 &__wrapper {
     width: 100%;
     text-align: center;
@@ -10,11 +14,11 @@
 }
 
 &__img {
-    width: 120px;
+    max-width: 120px;
     height: auto;
 
-@media screen and (max-width: 600px) {
-    width: 100px;
+@media all and (max-width: 650px) {
+    max-width: 90%;
 }
 }
 
@@ -30,7 +34,7 @@
     line-height: 1.25;
 
 @media screen and (max-width: 650px) {
-    font-size: 19px;
+    font-size: 18px;
 }
 }
 
