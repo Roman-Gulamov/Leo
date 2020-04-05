@@ -25,7 +25,6 @@ package.json, а также все их зависимости.
 
 ## В проекте используется и применяется:
 
-* Bootstrap 4 (минимум)
 * chiefSlider (.js файл)
 * Flexbox (основное)
 * jQuery
