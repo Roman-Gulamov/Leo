@@ -100,3 +100,4 @@
 
     let slider = multiItemSlider('.header__slider')
 //! -SlIDER- //
+

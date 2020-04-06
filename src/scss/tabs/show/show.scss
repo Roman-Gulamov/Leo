@@ -28,7 +28,10 @@
     max-width: 70%;
     max-height: 70%;
     margin-bottom: 0;
-    
+}
+
+@media all and (max-width: 375px) and (max-height: 667px) {
+    margin: 50px auto 10px auto;
 }
 }
     
@@ -45,6 +48,10 @@
     font-size: 28px;
     margin-left: 25px;
 }
+
+@media all and (max-width: 375px) and (max-height: 667px) {
+    line-height: 1.25;
+}
 }
     
 &__smalltext {
@@ -55,7 +62,13 @@
 
 @media screen and (max-width: 700px) {
     font-size: 11px;
-    margin: 0 66px 0px 25px;
+    margin-left: 25px;
+}
+
+@media all and (max-width: 375px) and (max-height: 667px) {
+    margin-top: 5px;
+    line-height: 1.95;
+    
 }
 }
 }
@@ -114,5 +127,11 @@
     left: 71.78%;
     width: 24.9%;
 }
+}
+}
+
+section br {
+@media all and (max-width: 375px) and (max-height: 667px) {
+    display: none;
 }
 }

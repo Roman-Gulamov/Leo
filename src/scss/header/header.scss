@@ -6,10 +6,10 @@
 
 @media screen and (max-width: 800px) {
     height: 390px;
+    background-size: auto;
 }
 
-@media all and (max-width: 450px) {
-    background-size: auto;
+@media all and (max-width: 375px) and (max-height: 667px) {
     height: 100vh;    
 }
 }//header

@@ -1,25 +1,29 @@
 //! FONTS //
 @font-face {
-    font-family: "Segoe WP Light";
-    font-weight: 300;
-    src: url("/src/fonts/ofont.ru_Segoe_WP_Light.ttf") format("ttf");
+	font-family: "Segoe WP Light";
+	src: url('/src/fonts/ofont.ru_Segoe_WP_Light.eot');
+	src: url('/src/fonts/ofont.ru_Segoe_WP_Light.ttf') format('ttf'), url('/src/fonts/ofont.ru_Segoe_WP_Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
     font-family: "Segoe WP Semibold";
     font-weight: 700;
-    src: url("/src/fonts/ofont.ru_Segoe_WP_Semibold.ttf") format("ttf");
+    src: url('/src/fonts/ofont.ru_Segoe_WP_Semibold.ttf') format('ttf');
 }
 
 @font-face {
-    font-family: "Segoe WP Semilight";
-    font-weight: 300;
-    src: url("/src/fonts/ofont.ru_Segoe_WP_SemiLight.ttf") format("ttf");
+	font-family: "Segoe WP Semilight";
+	src: url('/src/fonts/ofont.ru_Segoe_WP_SemiLight.eot');
+	src: url('/src/fonts/ofont.ru_Segoe_WP_SemiLight.ttf') format('ttf'), url('/src/fonts/ofont.ru_Segoe_WP_SemiLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
     font-family: "Mrs Eaves Italic";
     font-weight: 300;
-    src: url("/src/fonts/MrsEavesOT-Italic.otf") format("otf");
+    src: url('/src/fonts/MrsEavesOT-Italic.otf') format('otf');
 }
 //! -FONTS- //

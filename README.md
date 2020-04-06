@@ -21,13 +21,14 @@
 *Запустить команду npm install в терминале. Данная команда установит все пакеты, которые указаны в файле
 package.json, а также все их зависимости.
 
-*Запустить через Live Server.
 
 ## В проекте используется и применяется:
 
+* Bootstrap 4 (carousel)
 * chiefSlider (.js файл)
 * Flexbox (основное)
 * jQuery
 * SASS
 * Schema.org
 * Webpack 4
+
