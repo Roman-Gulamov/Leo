@@ -1,0 +1,83 @@
+.footer {
+    
+&__text {
+    font-size: 13px;
+    line-height: 1.7;
+    color: $Footer;
+    font-weight: 600;
+
+@media all and (max-width: 552px) {
+    font-size: 14px;
+}
+
+& br:not(:nth-last-child(-n+2)) {
+@media all and (max-width: 552px) {
+    display: none;
+}
+}
+}
+
+&__span {
+    font-size: 13px;
+    color: darken($White, 15%);
+    font-weight: 900;
+    line-height: 1;
+}
+}
+
+.footer .carousel {
+    position: relative;
+    overflow: hidden;
+    max-width: 350px;
+    margin: auto;
+    color: $Footer;
+
+&-item {
+    visibility: hidden;
+}
+
+&-item.active {
+    visibility: visible;
+}
+
+& .footer__title {
+    margin-right: 50%;
+
+@media all and (max-width: 552px) {
+    margin-top: 11px;
+    margin-right: 0;
+    line-height: 1.4;  
+    text-align: center;  
+}
+}
+
+&-control-prev {
+    display: inline-flex;
+    top: 10%;
+    left: 59%;
+    width: 16px;
+    height: 16px;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+&-control-next {
+    display: inline-flex;
+    top: 10%;
+    right: 30%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    opacity: .5;
+    transition: opacity .11s ease;
+}
+
+&__control {
+    cursor: pointer;
+
+@media all and (max-width: 552px) {
+    display: none;
+}
+}
+} // .carousel
+

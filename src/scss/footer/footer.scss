@@ -20,9 +20,14 @@
     color: rgba(255,255,255,0.85);
     font-size: 24px;
     line-height: 1.8;
+
+&:last-child {
+    margin-right: 43%;
 }
 }
-@import "../footer/logo.scss";
-@import "../footer/slider-footer.scss";
-@import "../footer/about.scss";
+}
 //! -FOOTER- //
+
+@import "../footer/about.scss";
+@import "../footer/footer__carousel.scss";
+@import "../footer/logo.scss";

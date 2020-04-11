@@ -23,5 +23,8 @@
     width: 40%;
 }
 
+@media all and (max-width: 375px) and (max-height: 667px) {
+    width: 50%;
+}
 } 
 }

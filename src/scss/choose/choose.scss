@@ -4,16 +4,16 @@
     justify-content: space-between;
     margin-top: 35px;
 
+@media all and (max-width: 966px) {
+    margin-left: 14px;
+}
+
 &__img {
     width: auto;
     height: 310px;
 
 @media all and (max-width: 500px) {
     width: 100%;
-}
-
-@media all and (max-width: 375px) and (max-height: 667px) {
-    width: auto;
     max-height: 245px;
 }
 }
@@ -36,7 +36,8 @@
     color: $Gray;
 
 @media all and (max-width: 375px) and (max-height: 667px) {
-    font-size: 13.3px;
+    font-size: 14px;
+    line-height: 1.5;
 }
 }
 }

@@ -1,4 +1,4 @@
-.carousel {
+.header .carousel {
     position: relative;
     overflow: hidden;
     max-width: 1185px;
@@ -54,6 +54,7 @@
     display: none;
 }
 }
+
 &-control-next {
     right: 0;
     top: 75px;
@@ -67,7 +68,6 @@
     top: 175px;
     right: 5px;
     width: 60px;
-    height: auto;
 }
 }
 
