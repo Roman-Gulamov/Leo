@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roman-Gulamov/Leo--.git"
+    "url": "git+https://github.com/Roman-Gulamov/Leo.git"
   },
   "author": "Roman Gulamov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Roman-Gulamov//Leo--/issues"
+    "url": "https://github.com/Roman-Gulamov//Leo/issues"
   },
-  "homepage": "https://github.com/Roman-Gulamov//Leo--#readme",
+  "homepage": "https://github.com/Roman-Gulamov//Leo#readme",
   "devDependencies": {
     "css-loader": "^3.4.2",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
