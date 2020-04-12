@@ -16,7 +16,7 @@
 ## Инструкция для старта проекта:
 
 *Склонировать данный репозиторий
->git clone https://github.com/Roman-Gulamov/Leo--.git
+>git clone https://github.com/Roman-Gulamov/Leo.git
 
 *Запустить команду npm install в терминале. Данная команда установит все пакеты, которые указаны в файле
 package.json, а также все их зависимости.
