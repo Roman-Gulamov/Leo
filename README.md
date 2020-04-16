@@ -29,5 +29,7 @@ package.json, а также все их зависимости.
 * `HTML`
 * `SASS`
 * `Schema.org`
+* `PHP`
+* `MySQL`
 * `Webpack 4`
 
