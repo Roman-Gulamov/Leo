@@ -70,7 +70,7 @@
                     <div class="carousel__text">
                         <h1 class="carousel__title">Introducing</h1>
                         <h2 class="carousel__subtitle">Something hot......</h2>
-                        <button class="carousel__button btn">Try Demo</button>
+                        <button class="carousel__button btn"><a href="#choose">Try Demo</a></button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -78,7 +78,7 @@
                     <div class="carousel__text">
                         <h1 class="carousel__title">Introducing</h1>
                         <h2 class="carousel__subtitle">Something cold......</h2>
-                        <button class="carousel__button btn">Try Memo</button>
+                        <button class="carousel__button btn"><a href="#choose">Try Demo</a></button>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#header__carousel" role="button" data-slide="prev">
@@ -94,7 +94,7 @@
     </header>  <!-- header -->
 
 
-    <section class="tabs container">
+    <section id="tabs" class="tabs container">
         <div class="tabs__wrapper phone">
             <img src="src/img/Tabs/phone.png" class="tabs__img" alt="">
             <p class="tabs__text">Responsive <br> <span class="tabs__phone web">Websites</span></p>
@@ -151,7 +151,7 @@
         </div>
     </section> <!-- show -->
 
-    <section class="choose container">
+    <section id="choose" class="choose container">
         <img src="src/img/Choose/Tab.png" class="choose__img" alt="Tab" >
         <div>
             <h3 class="choose__title">Why choose us ?</h3>
@@ -171,16 +171,16 @@
     <section class="subs container">
         <div class="subs__login subs__same">
             <div class="subs__title">Member login</div>
-            <form action="#">
-                <input type="text" required oninvalid="this.setCustomValidity('&#128522; Введи имя &#128522;')" oninput="setCustomValidity('')" placeholder="User Name" autocomplete="off">
-                <input type="password" required oninvalid="this.setCustomValidity('&#128528; Пароль... &#128528;')" oninput="setCustomValidity('')" placeholder="Password" autocomplete="off">
+            <form action="src/php/login.php" method="POST">
+                <input type="text" name="login" required placeholder="User Name" autocomplete="off">
+                <input type="password" name="password" required placeholder="Password" autocomplete="off">
                 <input type="submit" class="subs__button btn" value="Log me in.">
             </form>
         </div>
         <div class="subs__mail subs__same">
             <div class="subs__title">Subscribe to our weekly newsletter</div>
-            <form>
-                <input type="email" pattern=".+@mail.ru" size="30" required oninput="setCustomValidity('@mail.ru')" placeholder="email address" autocomplete="off">
+            <form action="src/php/email.php" method="POST">
+                <input type="email" name="email" size="30" placeholder="email address" autocomplete="off">
                 <input type="submit" class="subs__button btn" value="Subscribe">
             </form>
         </div>
