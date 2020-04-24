@@ -21,7 +21,7 @@
 }
 
 &-item {
-    display: flex;
+    @include flex;
     visibility: hidden;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 &-item.active {
-    display: flex;
+    @include flex;
     visibility: visible;
     flex-wrap: wrap;
     justify-content: center;
@@ -58,7 +58,7 @@
 &-control-next {
     right: 0;
     top: 75px;
-    display: flex;
+    @include flex;
     width: 49px;
     height: 49px;
     opacity: .5;

@@ -17,14 +17,14 @@ if ($mysql->connect_errno) {
         if (count((array)$user) == 0) {
             echo "
             <body style='background-image: url(../img/Header/bg.png); max-width: 1020px; margin: auto; color: white; background-size: cover;'>
-                <div style='font-size: 33px; margin: auto; font-weight:bold; text-align: center; position: absolute; top: 43%; left: 21%;'>
+                <div style='font-size: 33px; margin: auto; font-weight:bold; text-align: center; position: absolute; top: 43%; left: 23%;'>
                     Такой пользователь не найден.
                     <br /> 
                     Возможно, вы ввели неверный логин или пароль
                 </div>
             </body>
                 ";
-            header("Refresh:2; url=http://localhost/leo/");
+            header("Refresh: 2; url=http://localhost/leo/");
             exit();
         }
     

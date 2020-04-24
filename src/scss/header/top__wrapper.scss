@@ -1,7 +1,7 @@
 .header {
 
 &__top__wrapper {
-    display: flex;
+    @include flex;
     justify-content: space-between;
     padding-top: 50px;
     min-height: 220px;

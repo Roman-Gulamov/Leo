@@ -69,7 +69,7 @@
     right: 30%;
     width: 16px;
     height: 16px;
-    display: flex;
+    @include flex;
     opacity: .5;
     transition: opacity .11s ease;
 

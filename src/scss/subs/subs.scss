@@ -1,6 +1,6 @@
 //! SUBS //
 .subs {
-    display: flex;
+    @include flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 20px;
