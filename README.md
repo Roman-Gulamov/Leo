@@ -18,7 +18,7 @@
 1. Склонировать данный репозиторий в любой удобный для вас терминал:
     > `git clone https://github.com/Roman-Gulamov/Leo.git`
 
-2. Запустить команду `npm install` в терминале. 
+2. Перейдя в директорию "С/D/E":\\*\Leo введите команду `npm install` в терминале. 
     > Данная команда установит все пакеты, которые указаны в файле
 ***package.json***, а также все их зависимости.
 
@@ -27,12 +27,12 @@
 >                   
 4. Открыть `index.html` файл.
 ## В проекте используется и применяется:
-* `Bootstrap 4`
-* `Flexbox`
-* `jQuery`
-* `HTML`
-* `SASS`
-* `Schema.org`
-* `PHP`
-* `MySQL`
-* `Webpack 4`
+1. `Bootstrap 4`
+2. `Flexbox`
+3. `jQuery`
+4. `HTML`
+5. `SASS`
+6. `Schema.org`
+7. `PHP`
+8. `MySQL`
+9. `Webpack 4`
