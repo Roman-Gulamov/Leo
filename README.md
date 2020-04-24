@@ -20,6 +20,6 @@
 4. `HTML`
 5. `SASS`
 6. `Schema.org`
-7. `PHP`
-8. `MySQL`
+7. `PHP` (only with XAMPP)
+8. `MySQL` (only with XAMPP)
 9. `Webpack 4`
