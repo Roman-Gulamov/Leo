@@ -26,7 +26,7 @@
                             <span class="stick"></span>
                             <span class="stick"></span>
                         </div>
-                        <ul class="nav__menu" title="Solutions">
+                        <ul class="nav__menu">
                             <li>Solutions</li>
                             <li class="nav__menu__list">
                                 <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4</a>
@@ -34,7 +34,7 @@
                                 <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox</a>
                             </li>
                         </ul> 
-                        <ul class="nav__menu" title="Products">
+                        <ul class="nav__menu">
                             <li>Products</li>
                             <li class="nav__menu__list">
                                 <a href="https://jquery.com/" target="_blank">jQuery</a>
@@ -42,7 +42,7 @@
                                 <a href="https://schema.org/" target="_blank">Schema</a>
                             </li>
                         </ul>
-                        <ul class="nav__menu" title="Portfolio">
+                        <ul class="nav__menu">
                             <li>Portfolio</li>
                             <li class="nav__menu__list">
                                 <a href="https://webpack.js.org/" target="_blank">Webpack 4</a>
@@ -50,7 +50,7 @@
                                 <a href="https://www.json.org/json-ru.html" target="_blank">JSON</a>
                             </li>
                         </ul>
-                        <ul class="nav__menu" title="Contact">
+                        <ul class="nav__menu">
                             <li>Contact</li>
                             <li class="nav__menu__list">
                                 <a href="#">22.03.2020</a>
@@ -70,7 +70,7 @@
                     <div class="carousel__text">
                         <h1 class="carousel__title">Introducing</h1>
                         <h2 class="carousel__subtitle">Something hot......</h2>
-                        <button class="carousel__button btn"><a href="#choose">Try Demo</a></button>
+                        <a href="#subs"><button class="carousel__button btn">Try Demo</button></a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -78,7 +78,7 @@
                     <div class="carousel__text">
                         <h1 class="carousel__title">Introducing</h1>
                         <h2 class="carousel__subtitle">Something cold......</h2>
-                        <button class="carousel__button btn"><a href="#choose">Try Demo</a></button>
+                        <a href="#subs"><button class="carousel__button btn">Try Demo</button></a>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#header__carousel" role="button" data-slide="prev">
@@ -151,7 +151,7 @@
         </div>
     </section> <!-- show -->
 
-    <section id="choose" class="choose container">
+    <section class="choose container">
         <img src="src/img/Choose/Tab.png" class="choose__img" alt="Tab" >
         <div>
             <h3 class="choose__title">Why choose us ?</h3>
@@ -168,19 +168,19 @@
 
     <hr>
 
-    <section class="subs container">
+    <section id="subs" class="subs container">
         <div class="subs__login subs__same">
             <div class="subs__title">Member login</div>
             <form action="src/php/login.php" method="POST">
-                <input type="text" name="login" required placeholder="User Name" autocomplete="on">
-                <input type="password" name="password" required placeholder="Password" autocomplete="on">
+                <input type="text" name="login" required pattern="(^[а-яА-ЯёЁa-zA-Z0-9]+$)" maxlength="100" placeholder="User Name" autocomplete="on">
+                <input type="password" name="password" pattern="(^[а-яА-ЯёЁa-zA-Z0-9]+$)" maxlength="100" required placeholder="Password" autocomplete="on">
                 <input type="submit" class="subs__button btn" value="Log me in.">
             </form>
         </div>
         <div class="subs__mail subs__same">
             <div class="subs__title">Subscribe to our weekly newsletter</div>
             <form action="src/php/email.php" method="POST">
-                <input type="email" name="email" size="30" placeholder="email address" autocomplete="on">
+                <input type="email" name="email" size="30" required pattern="(^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$)" maxlength="100" placeholder="email address" autocomplete="on">
                 <input type="submit" class="subs__button btn" value="Subscribe">
             </form>
         </div>

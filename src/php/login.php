@@ -15,7 +15,7 @@ if ($mysql->connect_errno) {
     
     $user = $result->fetch_assoc();
         if (count((array)$user) == 0) {
-            echo "
+            echo  "
             <body style='background-image: url(../img/Header/bg.png); max-width: 1020px; margin: auto; color: white; background-size: cover;'>
                 <div style='font-size: 33px; margin: auto; font-weight:bold; text-align: center; position: absolute; top: 43%; left: 23%;'>
                     Такой пользователь не найден.
@@ -26,9 +26,9 @@ if ($mysql->connect_errno) {
                 ";
             header("Refresh: 2; url=http://localhost/leo/");
             exit();
+        } else {
+            setcookie('user', $user['login'], time() + 3600, "/");
         }
-    
-    setcookie('user', $user['login'], time() + 3600, "/");
 $mysql->close ();
 
     header('location: http://localhost/leo/');
