@@ -27,7 +27,12 @@
     color: $White;
     text-align: center;
     display: none;
+
+@media screen and (max-width: 800px) {
+    z-index: 999999;
 }
+}
+
 @import "../header/top__wrapper.scss";
 @import "../header/nav.scss";
 @import "../header/header__carousel.scss";

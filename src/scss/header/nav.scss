@@ -27,6 +27,7 @@
     width: 100%;
     color: $White;
     cursor: pointer;
+    z-index: 1;
     
 @media screen and (max-width: 800px) {
     display: none;
