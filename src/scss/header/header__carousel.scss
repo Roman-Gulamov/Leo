@@ -182,8 +182,9 @@
     color: $White;
     opacity: 0.8;
     font-family: $SegoeSL;
-    background-color: $Green;
+    background-color: rgba($Green, 0.48);
     outline: 4px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease;
         
 @media all and (max-width: 375px) and (max-height: 667px) {
     margin: auto;
@@ -192,7 +193,7 @@
 }
     
 &:hover { 
-    background-color: darken($Green, 5%);
+    background-color: rgba($Green, 0.35);
 }
     
 &:focus {

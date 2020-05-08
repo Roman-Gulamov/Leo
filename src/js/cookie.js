@@ -21,4 +21,19 @@ jQuery(document).ready(function($) {
         else {
             visitor.slideDown(1300).slideUp(2300);
         }  
+
+    setTimeout(search, 2500);
+
+            function search () {
+                if (!$.cookie('was')) {
+                    $('#boxUserFirstInfo').arcticmodal({
+                        closeOnOverlayClick: false,
+                        closeOnEsc: true
+                    });
+                }
+                    $.cookie('was', true, {
+                        expires: 365,
+                        path: '/'
+                    });
+            }
 });

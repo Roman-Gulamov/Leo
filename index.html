@@ -9,6 +9,7 @@
     <title>Leo - Something Hot!</title>
     <link rel="shortcut icon" href="src/img/Web-logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="node_modules/arcticModal/arcticmodal/jquery.arcticmodal.css">
     <link rel="stylesheet" href="dist/style.css" type="text/css">
 </head>
 
@@ -253,6 +254,19 @@
         </div>
     </footer> <!-- footer -->
     
+    <div class="warning">
+        <div  id="boxUserFirstInfo" class="warning__wrapper">
+            <div class="warning__info"> 
+                <span>Мы используем файлы <span>cookie.</span></span>
+                    <br>
+                Просматривая этот сайт, вы соглашаетесь с нашей 
+                <a class="warning__link" href="https://www.nic.ru/help/politika-ispol6zovaniya-cookie-fajlov_889.html" target="_blank">политикой конфиденциальности</a>
+            </div>
+            <img class="warning__img" src="src/img/Cookie/cookie.png" alt="cookie">
+            <div class="warning__accept arcticmodal-close">Продолжить</div>
+        </div>
+    </div> <!-- warning -->
+
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="dist/bundle.js"></script> 

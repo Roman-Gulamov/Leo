@@ -14,7 +14,7 @@ input {
 }
 
 &:invalid {
-    outline: 2px solid $Warning;
+    outline: 2px solid $Red;
 }
 
 &::-webkit-input-placeholder { 
