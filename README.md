@@ -15,12 +15,15 @@
 2. Открыть `index.html` файл.
 
 ## В проекте используется и применяется:
-1. `Bootstrap 4`
-2. `Flexbox`
-3. `jQuery`
-4. `HTML`
-5. `SASS`
-6. `Schema.org`
-7. `PHP (only with XAMPP)`
-8. `MySQL (only with XAMPP)`
-9. `Webpack 4`
+1. `arcticModal` 
+2. `Bootstrap 4`
+3. `Flexbox`
+4. `jQuery`
+5. `jQuery.cookie`
+6. `HTML`
+7. `SASS`
+8. `Schema.org`
+9. `PHP (only with XAMPP)`
+10. `MySQL (only with XAMPP)`
+11. `Webpack 4`
+ 
