@@ -17,14 +17,16 @@ if ($mysql->connect_errno) {
         if (count((array)$user) == 0) {
             echo  "
             <body style='background-image: url(../img/Header/bg.png); max-width: 1020px; margin: auto; color: white; background-size: cover;'>
-                <div style='font-size: 33px; margin: auto; font-weight:bold; text-align: center; position: absolute; top: 43%; left: 23%;'>
+                <img src='../../src/img/PHP/bad.png' style='width: auto; height: 300px; display: block; margin: auto; margin-top: 60px;' alt='BAD'>
+                <div style='font-size: 57px; margin: auto; font-weight:bold; text-align: center;'>
                     Такой пользователь не найден.
                     <br /> 
                     Возможно, вы ввели неверный логин или пароль
                 </div>
+                <img src='../../src/img/PHP/bad.png' style='width: auto; height: 300px; display: block; margin: auto;' alt='BAD'>
             </body>
                 ";
-            header("Refresh: 2; url=http://localhost/leo/");
+            header("Refresh: 2; url=http://192.168.0.101/leo/");
             exit();
         } else {
             setcookie('user', $user['login'], time() + 3600, "/");

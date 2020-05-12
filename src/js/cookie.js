@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
             visitor.slideDown(1300).slideUp(2300);
         }  
 
-    setTimeout(search, 2500);
+    setTimeout(search, 5500);
 
             function search () {
                 if (!$.cookie('was')) {

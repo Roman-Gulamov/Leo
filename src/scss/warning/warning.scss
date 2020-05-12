@@ -22,7 +22,8 @@
 
 @media all and (max-width: 375px) and (max-height: 667px) {
     left: 2%;
-    width: 96%;;
+    width: 96%;
+    padding-bottom: 60px;
 }
 }   
 
@@ -44,7 +45,7 @@
 
 &__accept {
     cursor: pointer;
-    color: $White;
+    color: rgba($Yellow, 0.9);
     display: flex;  
     align-items: flex-end;
     position: absolute;
@@ -57,18 +58,18 @@
 
 @media screen and (max-width: 800px) {
     font-size: 1.25em;
-    left: 28%;
+    left: 26%;
     top: 86%;
 }
 
 &:hover {
-    color: rgba($White, 0.7)
+    color: rgba($Yellow, 0.6)
 }
 }
 
 &__link {
     color: $Warning;
-    font-size: 1.3em;
+    font-size: 1.2em;
     border-bottom: 1px solid rgba($Warning, 0.6);
     transition: color 0.4s ease;
 

@@ -9,62 +9,62 @@
     <title>Leo - Something Hot!</title>
     <link rel="shortcut icon" href="src/img/Web-logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="node_modules/arcticModal/arcticmodal/jquery.arcticmodal.css">
+    <link rel="stylesheet" href="src/arcticModal/arcticmodal/jquery.arcticmodal.css">
     <link rel="stylesheet" href="dist/style.css" type="text/css">
 </head>
 
 <body itemscope itemtype="https://schema.org/Organization">
+    <div id='user' class="hello">Привет, Алина!</div>
+    <div id='visitor'class="hello">Привет, Гость!</div>
+    <div id='subscribe'class="hello">Спасибо за подписку!</div>
     <header class="header" style="background-image: url(src/img/Header/bg.png);">
         <div class="container">
-            <div id='user' class="hello">Привет, Алина!</div>
-            <div id='visitor'class="hello">Привет, Гость!</div>
-            <div id='subscribe'class="hello">Спасибо за подписку!</div>
-                <div class="header__top__wrapper">
-                    <a href="#" title="Leo/-" class="header__logo">
-                        <span class="logo" itemprop="legalName">Leo/-</span>
-                    </a>
-                    <nav class="nav">
-                        <div class="nav__wrapper">
-                            <div class="toggle__menu">
-                                <span class="stick"></span>
-                                <span class="stick"></span>
-                                <span class="stick"></span>
-                            </div>
-                            <ul class="nav__menu">
-                                <li>Solutions</li>
-                                <li class="nav__menu__list">
-                                    <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4</a>
-                                    <a href="https://itchief.ru/javascript/slider-on-css-and-javascript" target="_blank">chiefSlider</a>
-                                    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox</a>
-                                </li>
-                            </ul> 
-                            <ul class="nav__menu">
-                                <li>Products</li>
-                                <li class="nav__menu__list">
-                                    <a href="https://jquery.com/" target="_blank">jQuery</a>
-                                    <a href="https://sass-lang.com/" target="_blank">SASS</a>
-                                    <a href="https://schema.org/" target="_blank">Schema</a>
-                                </li>
-                            </ul>
-                            <ul class="nav__menu">
-                                <li>Portfolio</li>
-                                <li class="nav__menu__list">
-                                    <a href="https://webpack.js.org/" target="_blank">Webpack 4</a>
-                                    <a href="https://www.npmjs.com/" target="_blank">Npm</a>
-                                    <a href="https://www.json.org/json-ru.html" target="_blank">JSON</a>
-                                </li>
-                            </ul>
-                            <ul class="nav__menu">
-                                <li>Contact</li>
-                                <li class="nav__menu__list">
-                                    <a href="#">22.03.2020</a>
-                                    <a href="#">17:42</a>
-                                    <a href="https://www.google.ru/" target="_blank">Google</a>
-                                </li>
-                            </ul>
+            <div class="header__top__wrapper">
+                <a href="#" title="Leo/-" class="header__logo">
+                    <span class="logo" itemprop="legalName">Leo/-</span>
+                </a>
+                <nav class="nav">
+                    <div class="nav__wrapper">
+                        <div class="toggle__menu">
+                            <span class="stick"></span>
+                            <span class="stick"></span>
+                            <span class="stick"></span>
                         </div>
-                    </nav>
-                </div> <!-- header__top__wrapper -->
+                        <ul class="nav__menu">
+                            <li>Solutions</li>
+                            <li class="nav__menu__list">
+                                <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4</a>
+                                <a href="https://itchief.ru/javascript/slider-on-css-and-javascript" target="_blank">chiefSlider</a>
+                                <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox</a>
+                            </li>
+                        </ul> 
+                        <ul class="nav__menu">
+                            <li>Products</li>
+                            <li class="nav__menu__list">
+                                <a href="https://jquery.com/" target="_blank">jQuery</a>
+                                <a href="https://sass-lang.com/" target="_blank">SASS</a>
+                                <a href="https://schema.org/" target="_blank">Schema</a>
+                            </li>
+                        </ul>
+                        <ul class="nav__menu">
+                            <li>Portfolio</li>
+                            <li class="nav__menu__list">
+                                <a href="https://webpack.js.org/" target="_blank">Webpack 4</a>
+                                <a href="https://www.npmjs.com/" target="_blank">Npm</a>
+                                <a href="https://www.json.org/json-ru.html" target="_blank">JSON</a>
+                            </li>
+                        </ul>
+                        <ul class="nav__menu">
+                            <li>Contact</li>
+                            <li class="nav__menu__list">
+                                <a href="#">22.03.2020</a>
+                                <a href="#">17:42</a>
+                                <a href="https://www.google.ru/" target="_blank">Google</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div> <!-- header__top__wrapper -->
         </div> <!-- container -->
 
         <div id="header__carousel" class="carousel slide" data-ride="carousel">
@@ -253,7 +253,9 @@
             </div>
         </div>
     </footer> <!-- footer -->
-    
+
+    <a class="buttonUp"></a> <!-- buttonUp-->
+
     <div class="warning">
         <div  id="boxUserFirstInfo" class="warning__wrapper">
             <div class="warning__info"> 
@@ -266,7 +268,8 @@
             <div class="warning__accept arcticmodal-close">Продолжить</div>
         </div>
     </div> <!-- warning -->
-
+    
+    <script src="https://kit.fontawesome.com/c56a6af5a4.js" crossorigin="anonymous"></script>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="dist/bundle.js"></script> 
