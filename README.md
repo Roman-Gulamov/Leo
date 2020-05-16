@@ -20,7 +20,7 @@
 3. `Flexbox`
 4. `jQuery`
 5. `jQuery.cookie`
-6. `HTML`
+6. `HTML5`
 7. `SASS`
 8. `Schema.org`
 9. `PHP (only with XAMPP)`
