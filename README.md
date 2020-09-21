@@ -2,4 +2,6 @@
 
 1. `git clone https://github.com/Roman-Gulamov/Leo.git`
 
-2. `**/Leo/index.html`
+2. `npm install`
+
+3. `**/Leo/index.html`
