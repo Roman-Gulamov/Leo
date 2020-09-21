@@ -4,4 +4,6 @@
 
 2. `npm install`
 
-3. `**/Leo/index.html`
+3. `npm run build`
+
+4. `**/Leo/index.html`
