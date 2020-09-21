@@ -1,6 +1,0 @@
-[submodule "src/arcticModal"]
-	path = src/arcticModal
-	url = https://github.com/Roman-Gulamov/Leo
-[submodule "src/jquery-cookies"]
-	path = src/jquery-cookies
-	url = https://github.com/Roman-Gulamov/Leo
