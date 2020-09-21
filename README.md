@@ -4,6 +4,8 @@
 
 2. `npm install`
 
-3. `npm run build`
+3. `git submodule update`
 
-4. `**/Leo/index.html`
+4. `npm run build`
+
+5. `**/Leo/index.html`
