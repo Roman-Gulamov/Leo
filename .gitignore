@@ -1,5 +1,5 @@
 npm.debug.log
 Desktop.ini
-node_modules\.cache
-node_modules\.cache\terser-webpack-plugin
+/node_modules
 404.html
+er.name

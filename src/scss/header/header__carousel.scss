@@ -179,6 +179,7 @@
 &__button {
     width: 135px;
     height: 40px;
+    border-radius: 0;
     color: $White;
     opacity: 0.8;
     font-family: $SegoeSL;
@@ -195,9 +196,6 @@
 &:hover { 
     background-color: rgba($Green, 0.35);
 }
-    
-&:focus {
-    outline: 4px solid rgba(0, 0, 0, 0.2);
-} 
+ 
 }
 } // .carousel

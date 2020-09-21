@@ -11,6 +11,10 @@
     max-width: 907px;
     margin: auto;
 
+    & .carousel-inner {
+        width: 350px;
+    }
+
 @media screen and (max-width: 800px) {
     text-align: center;
 }
