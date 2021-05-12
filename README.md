@@ -1,4 +1,4 @@
-![axiosform](https://res.cloudinary.com/romangulamov/image/upload/v1620859657/Screenshots/Leo_n0kc8g.png)
+![Leo](https://res.cloudinary.com/romangulamov/image/upload/v1620859657/Screenshots/Leo_n0kc8g.png)
 
 # Instructions for starting a project:
 
