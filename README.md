@@ -1,11 +1,24 @@
-## Инструкция для старта проекта:
+![axiosform](https://res.cloudinary.com/romangulamov/image/upload/v1620859657/Screenshots/Leo_n0kc8g.png)
 
-1. `git clone https://github.com/Roman-Gulamov/Leo.git`
+# Instructions for starting a project:
 
-2. `npm install`
+``` bash
+    1.  git clone https://github.com/Roman-Gulamov/Leo
+```
 
-3. `git submodule update`
+``` bash
+    2.  npm install
+```
 
-4. `npm run build`
+``` bash
+    3.  git submodule update
+```
 
-5. `**/Leo/index.html`
+``` bash
+    4.  npm run build
+```
+
+``` bash
+    5.  **/Leo/index.html
+```
+
